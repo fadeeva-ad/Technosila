@@ -1,5 +1,126 @@
-.one {
-    height: 200px;
-    width: 100px;
-    background-color: red;
+
+@font-face {
+  font-family: "Museo Sans Cyrillic-100";
+  src: url("../fonts/MuseoSansCyrl-100.ttf");
+  src: url("../fonts/MuseoSansCyrl-100.eot"),
+       url("../fonts/MuseoSansCyrl-100.otf"),
+       url("../fonts/MuseoSansCyrl-100.woff"),
+       url("../fonts/MuseoSansCyrl-100.woff2");
+  font-weight: 100;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: "Museo Sans Cyrillic";
+  src: url("../fonts/MuseoSansCyrl-300.ttf");
+  src: url("../fonts/MuseoSansCyrl-300.eot"),
+       url("../fonts/MuseoSansCyrl-300.otf"),
+       url("../fonts/MuseoSansCyrl-300.woff"),
+       url("../fonts/MuseoSansCyrl-300.woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Museo Sans Cyrillic";
+  src: url("../fonts/MuseoSansCyrl-500.ttf");
+  src: url("../fonts/MuseoSansCyrl-500.eot"),
+       url("../fonts/MuseoSansCyrl-500.otf"),
+       url("../fonts/MuseoSansCyrl-500.woff"),
+       url("../fonts/MuseoSansCyrl-500.woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Museo Sans Cyrillic";
+  src: url("../fonts/MuseoSansCyrl-700.ttf");
+  src: url("../fonts/MuseoSansCyrl-700.eot"),
+       url("../fonts/MuseoSansCyrl-700.otf"),
+       url("../fonts/MuseoSansCyrl-700.woff"),
+       url("../fonts/MuseoSansCyrl-700.woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+ @font-face {
+  font-family: "Museo Sans Cyrillic";
+  src: url("../fonts/MuseoSansCyrl-900.ttf");
+  src: url("../fonts/MuseoSansCyrl-900.eot"),
+  url("../fonts/MuseoSansCyrl-900.otf"),
+  url("../fonts/MuseoSansCyrl-900.woff"),
+  url("../fonts/MuseoSansCyrl-900.woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+body {
+    font-family: "Museo Sans Cyrillic", arial;
+}
+
+.b-container {
+    margin: 0 auto;
+    width: 1190px;
+}
+
+.b-callback {
+    padding-bottom: 20px;
+
+    &__title {
+        font-size: 25px;
+        font-weight: 700;
+        color: #161616;
+        margin-bottom: 27px;
+    }
+
+    &__title-txt {
+        display:inline-block;
+        font-size:15px ;
+        font-weight:500;
+        color:#161616;
+        margin:0;
+        max-width:468px;
+        display: inline-block;
+    }
+
+    &__form {
+        display: inline-block;
+        margin: 0;
+        text-align: right;
+    }
+
+    &__email {
+        width: 378px;
+        height: 32px;
+        font-size: 15px;
+        font-weight: 500;
+        color: #999999;
+        margin-right: 5px;
+        padding-left: 10px;
+        outline: none;
+    }
+
+    &__button {
+        padding: 10px 38px;
+        font-size: 15px;
+        font-family: "Museo Sans Cyrillic";
+        font-weight: 700;
+        color: #161616;
+        background-color: #ffdc00;
+        text-transform: uppercase;
+        text-decoration:none;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        flex-direction:row;
+        align-items: flex-start;
+    }
+}
+
+.b-footer {
+    background-color: #efede7;
+}
+
+
