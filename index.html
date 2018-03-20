@@ -6,33 +6,230 @@
     <meta name="discription" content="Круглосуточная помощь в Ульяновске при ДТП">
     <meta name="keywords" content="keywords">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui, user-scalable=no">
-    <title>Document</title>
+    <title>Technosila</title>
+    <!-- Start: Styles -->
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <link rel="stylesheet" type="text/css" href="styles/normalize.css">
     <link rel="stylesheet" type="text/less" href="styles/style.less">
-    <script src="js/less.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="slick/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick/slick-theme.css">
+    <!-- End: Styles -->
     <link rel="shortcut icon" href="pictures/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <div class="b-container">
-        <section class="b-callback ">
-            <h2 class="b-callback__title">Оставайтесь на связи</h2>
-            <div class="b-callback__content">
-                <p class="b-callback__title-txt">Узнавайте о выгодных предложениях и получайте персональные рекомендации</p>
-                <form class="b-callback__form" action="#" method="get">
-                    <input class="b-callback__email" type="text" name="text" placeholder="Ваша электронная почта"></input>
-                    <a class="b-callback__button" href="">Подписаться</a>
-                </form>
+    <!-- start: Viewed section + arrows  -->
+    <section class="b-viewed b-container">
+        <div class="b-viewed__wrapper">
+            <h2 class="b-viewed__title">Вы недавно просматривали</h2>
+            <div class="b-viewed__arrow-container">
+                <a class="b-viewed__arrow" href="javascript:void(0)">
+                    <img class="b-viewed__arrow--left" alt="arrow-left" src="pictures/arrows/arrow-left.svg"></a>
+                <a class="b-viewed__arrow" href="javascript:void(0)">
+                    <img class="b-viewed__arrow--right" alt="arrow-right" src="pictures/arrows/arrow-right.svg"></a>
+            </div>
+        </div>
+        <!-- End:Viewed section + arrows -->
+        <!-- Start Slider -->
+        <div class="b-slide">
+            <div class="b-slide__js-box">
+                <a class="b-slide__wrapper">
+                    <span class="b-slide__img-container">
+                        <img class="b-slide__img"  src="pictures/viewed/good-1.png">
+                    </span>
+                    <span class="b-slide__text-container">
+                        <span class="b-slide__text">lg 55uf670v</span>
+                        <span class="b-slide__price">76 190<span class="b-slide__price--min">р.</span></span>
+                    </span>
+                </a>
+            </div>
+            <div class="b-slide__js-box">
+                <a class="b-slide__wrapper b-slide__wrapper--mod">
+                    <span class="b-slide__img-container b-slide__img-container--mod">
+                        <img class="b-slide__img"  src="pictures/viewed/good-22.png">
+                    </span>
+                    <span class="b-slide__text-container">
+                        <span class="b-slide__text b-slide__text--mod">Samsung UE-48-JU6610U Smart UHD LED</span>
+                        <span class="b-slide__price b-slide__price--mod">53 190<span class="b-slide__price--min">р.</span></span>
+                    </span>
+                </a>
+            </div>
+            <div class="b-slide__js-box">
+                <a class="b-slide__wrapper b-slide__wrapper--box">
+                    <span class="b-slide__img-container">
+                        <img class="b-slide__img b-slide__img--mod" src="pictures/viewed/good-32.png">
+                    </span>
+                    <span class="b-slide__text-container">
+                        <span class="b-slide__text b-slide__text--padd">lg 55uf670v</span>
+                        <span class="b-slide__price b-slide__price--color">101 190<span class="b-slide__price--min">р.</span></span>
+                    </span>
+                </a>
+            </div>
+            <div class="b-slide__js-box">
+                <a class="b-slide__wrapper b-slide__wrapper--padd">
+                    <span class="b-slide__img-container">
+                        <img class="b-slide__img b-slide__img--size"  src="pictures/viewed/good-2.png">
+                    </span>
+                    <span class="b-slide__text-container">
+                        <span class="b-slide__text">lg 55uf670v</span>
+                        <span class="b-slide__price b-slide__price--color">83 190<span class="b-slide__price--min">р.</span></span>
+                    </span>
+                </a>
+            </div>
+            <div class="b-slide__js-box">
+                <a class="b-slide__wrapper b-slide__wrapper--padd">
+                    <span class="b-slide__img-container">
+                        <img class="b-slide__img b-slide__img--size"  src="pictures/viewed/good-2.png">
+                    </span>
+                    <span class="b-slide__text-container">
+                        <span class="b-slide__text">lg 55uf670v</span>
+                        <span class="b-slide__price b-slide__price--color">83 190<span class="b-slide__price--min">р.</span></span>
+                    </span>
+                </a>
+            </div>
         </div>
     </section>
+    <!-- End: Slider -->
+    <!--  Start : callback area -->
+    <section class="b-callback b-container">
+        <h2 class="b-callback__title">Оставайтесь на связи</h2>
+        <div class="b-callback__content">
+            <p class="b-callback__title-txt">Узнавайте о выгодных предложениях и получайте персональные рекомендации</p>
+            <form class="b-callback__form" action="#" method="get">
+                <input class="b-callback__email" type="text" name="text" placeholder="Ваша электронная почта">
+                <a class="b-callback__button" href="javascript:void(0)">Подписаться</a>
+            </form>
+
+    </section>
     </div>
+    <!-- End : callback area  -->
+    <!-- Start:Footer -->
+    <footer class="b-footer">
+        <div class="b-container">
+        <div class="b-footer__wrapper">
+            <!-- Start: footer-list -->
+            <ul class="b-footer__block b-footer__block--about">
+                <li class="b-footer__li">
+                    <a class="b-footer__link" href="javascript:void(0)">О Техносиле</a>
+                </li>
+                <li class="b-footer__li">
+                    <a class="b-footer__list" href="javascript:void(0)">Новости компании</a>
+                </li>
+                <li class="b-footer__li">
+                    <a class="b-footer__list" href="javascript:void(0)">Вакансии</a>
+                </li>
+                <li class="b-footer__li">
+                    <a class="b-footer__list" href="javascript:void(0)">Контактная информация</a>
+                </li>
+                <li class="b-footer__li">
+                    <a class="b-footer__list" href="javascript:void(0)">Арендодателям</a>
+                </li>
+                <li class="b-footer__li">
+                    <a class="b-footer__list" href="javascript:void(0)">Юридическая и финансовая информация</a>
+                </li>
+            </ul>
+            <ul class="b-footer__block b-footer__block--help">
+                <li class="b-footer__li">
+                    <a class="b-footer__link" href="javascript:void(0)">Помощь покупателю</a>
+                </li >
+                <li>
+                    <a class="b-footer__list" href="javascript:void(0)">Как сделать заказ на сайте</a>
+                </li>
+                <li class="b-footer__li">
+                    <a class="b-footer__list" href="javascript:void(0)">Оплата</a>
+                </li>
+                <li class="b-footer__li">
+                    <a class="b-footer__list" href="javascript:void(0)">Доставка</a>
+                </li>
+                <li class="b-footer__li">
+                    <a class="b-footer__list" href="javascript:void(0)">Адреса магазинов</a>
+                </li>
+                <li class="b-footer__li">
+                    <a class="b-footer__list" href="javascript:void(0)">Возврат и обмен</a>
+                </li>
+                <li class="b-footer__li">
+                    <a class="b-footer__list" href="javascript:void(0)">Пользовательское соглашение</a>
+                </li>
+                <li class="b-footer__li">
+                    <a class="b-footer__list" href="javascript:void(0)">Обратная связь</a>
+                </li>
+            </ul>
+            <ul class="b-footer__block b-footer__block--serveses">
+                <li class="b-footer__li">
+                <a class="b-footer__link" href="javascript:void(0)">Услуги и сервисы</a>
+                </li>
+                <li class="b-footer__li">
+                    <a class="b-footer__list" href="javascript:void(0)">Покупка в кредит</a>
+                </li>
+                <li class="b-footer__li">
+                    <a class="b-footer__list" href="javascript:void(0)">Бонусная программа</a>
+                </li>
+                <li class="b-footer__li">
+                    <a class="b-footer__list" href="javascript:void(0)">Установка и настройка техники</a>
+                </li>
+                <li class="b-footer__li">
+                    <a class="b-footer__list" href="javascript:void(0)">Подарочные карты</a>
+                </li>
+                <li class="b-footer__li">
+                    <a class="b-footer__list" href="javascript:void(0)">Программа доп. сервиса "Сервис+"</a>
+                </li>
+                <li class="b-footer__li">
+                    <a class="b-footer__list" href="javascript:void(0)">Страхование техники</a>
+                </li>
+                <li class="b-footer__li">
+                    <a class="b-footer__list" href="javascript:void(0)">Гарантийное обслуживание</a>
+                </li>
+                <li class="b-footer__li">
+                    <a class="b-footer__list" href="javascript:void(0)">Программа ТЕХНОТРЕНД</a>
+                </li>
+                <li class="b-footer__li">
+                    <a class="b-footer__list" href="javascript:void(0)">Адреса сервисных центров</a>
+                </li>
+            </ul>
+            <!-- End: footer-list -->
+            <div class="b-footer__callback">
+                <p class="b-footer__title">Есть вопросы? Звоните!</p>
+                <a class="b-footer__number" href="tel:+74957752100" title="8 (495) 775 21 00">8 495 775 21 00</a>
+                <p class="b-footer__content">Для звонков по Москве</p>
+                <a class="b-footer__number" href="tel:+78007752100" title="8 (800) 775 21 00">8 800 775 21 00</a>
+                <p class="b-footer__content">Для звонков по России (бесплатно)</p>
+                <div class="b-footer__social">
+                    <a class="b-footer__icon" href="javascript:void(0)">
+                        <img class="b-footer__icon--img" alt="vk" src="pictures/social/icon-vkontakte.svg">
+                    </a>
+                    <a class="b-footer__icon" href="javascript:void(0)">
+                        <img class="b-footer__icon--img" alt="facebook" src="pictures/social/icon-facebook.svg">
+                    </a>
+                    <a class="b-footer__icon" href="javascript:void(0)">
+                        <img class="b-footer__icon--img" alt="odnoklassniki" src="pictures/social/icon-odnoklassniki.svg">
+                    </a>
+                    <a class="b-footer__icon" href="javascript:void(0)">
+                        <img class="b-footer__icon--img" alt="instagram" src="pictures/social/icon-instagram.svg">
+                    </a>
+                    <a class="b-footer__icon" href="javascript:void(0)">
+                        <img class="b-footer__icon--img" alt="twitter" src="pictures/social/icon-twitter.svg">
+                    </a>
+                    <a class="b-footer__icon" href="javascript:void(0)">
+                        <img class="b-footer__icon--img" alt="youtube" src="pictures/social/icon-youtube.svg">
+                    </a>
+                    <a class="b-footer__icon" href="javascript:void(0)">
+                        <img class="b-footer__icon--img" alt="G+" src="pictures/social/icon-google.svg">
+                    </a>
+                </div>
+            </div>
+        </div>
 
-
-    <footer class="b_footer">
+        <div class="b-footer__logo">
+                <p class="b-footer__copyright">Техносила &copy; 2016 Все цены указаны в рублях.</p>
+                <a class="b-footer__webmaster" href="javascript:void(0)">Какой-то умелец</a>
+            </div>
+            </div>
     </footer>
-
-    
-        
-    </div>
+    <!-- Start:Footer -->
+    <!-- Start: Styles -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+    <script src="js/less.min.js" type="text/javascript"></script>
+    <script src="js/slick.min.js"></script>
+    <!-- End: Styles -->
 </body>
 </html>

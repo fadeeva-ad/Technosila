@@ -54,6 +54,17 @@
   font-style: normal;
 }
 
+@generalColor: #ffdc00;
+@fontColor:#161616;
+@ContentText:#b2b1ae;
+@FontSizeH2:25px;
+@SpecialPrice:#eb2e2c;
+@Border:1px solid #e4e1d9;
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Museo Sans Cyrillic", arial;
 }
@@ -63,24 +74,162 @@ body {
     width: 1190px;
 }
 
-.b-callback {
-    padding-bottom: 20px;
+.b-viewed {
+    padding-bottom:58px;
+
+    &__wrapper {
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 16px;
+    }
 
     &__title {
-        font-size: 25px;
+        font-size:@FontSizeH2;
+        margin: 0;
+    }
+
+    &__arrow-container {
+        margin-top:10px;
+
+    }
+
+    &__arrow {
+        
+
+        &--left {
+            border:1px solid #000;
+            opacity: 0.3;
+            width: 35px;
+            height: 35px;
+            margin-right: 5px;
+        }
+
+        &--right {
+            border:1px solid #000;
+            opacity: 0.3;
+            width: 35px;
+            height: 35px;
+        }
+    }
+}
+
+.b-slide {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &__js-box {
+        margin:0;
+    }
+
+
+    &__wrapper {
+        display: flex;
+        margin: 0;
+        border: 1px solid #e4e1d9;
+        width: 288px;
+        height: 118px;
+        padding: 30px 15px;
+
+        &--mod{
+            padding: 18px 17px;
+        }
+
+        &--box {
+            padding: 25px 16px;
+        }
+        &--padd {
+            padding: 31px 23px;
+        }
+
+    }
+    &__img-container {
+        margin-right:16px;
+
+        &--mod {
+            padding-top: 12px;
+        }
+    }
+
+    &__img {
+        width: 87px;
+        height: auto;
+
+        &--mod {
+            width:93px;
+        }
+    }
+
+    &__text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__text {
+        display: block;
+        text-decoration: none;
+        font-size: 13px;
         font-weight: 700;
-        color: #161616;
-        margin-bottom: 27px;
+        color: #666666;
+        text-transform: uppercase;
+        padding-top: 5px;
+
+        &--mod{
+            text-transform: none;
+            padding: 0;
+        }
+        &--padd{
+            padding-top:8px;
+        }
+    }
+
+    &__price {
+        color:@fontColor;
+        font-weight:900;
+        display: block;
+        font-size: 18px;
+        font-weight: 900;
+        text-transform:none;
+
+        &--mod {
+            padding-bottom: 12px;
+        }
+
+        &--min {
+            font-size:12px;
+        }
+        &--color {
+            color:@SpecialPrice;
+        }
+    }
+}
+
+
+.b-callback {
+    padding-bottom: 38px;
+
+    &__title {
+        font-size: @FontSizeH2;
+        font-weight: 700;
+        color: @fontColor;
+        margin-bottom: 22px;
+        margin-top:0;
     }
 
     &__title-txt {
         display:inline-block;
         font-size:15px ;
         font-weight:500;
-        color:#161616;
+        color:@fontColor;
         margin:0;
         max-width:468px;
-        display: inline-block;
+        padding-top: 3px; /* выравнивает параграф */
+        margin-left: -2px; /* выравнивает параграф */
+        line-height: 19px; /* выравнивает параграф */
     }
 
     &__form {
@@ -90,23 +239,48 @@ body {
     }
 
     &__email {
-        width: 378px;
-        height: 32px;
+        width: 392px;
+        height: 38px;
         font-size: 15px;
         font-weight: 500;
         color: #999999;
         margin-right: 5px;
         padding-left: 10px;
         outline: none;
+        vertical-align: inherit;
+
+        &__email::-webkit-input-placeholder {
+        color: #999999;
+        font-size: 15px;
+        font-weight: 500;
+        }
+
+        &__email::-moz-placeholder {
+        color: #999999;
+        font-size: 15px;
+        font-weight: 500;
+        }
+
+        &__email::-moz-placeholder {
+        color: #999999;
+        font-size: 15px;
+        font-weight: 500;
+        }
+
+        &__email::-ms-input-placeholder {
+        color: #999999;
+        font-size: 15px;
+        font-weight: 500;
+        }
     }
 
     &__button {
-        padding: 10px 38px;
+        padding: 11px 38px;
         font-size: 15px;
         font-family: "Museo Sans Cyrillic";
         font-weight: 700;
-        color: #161616;
-        background-color: #ffdc00;
+        color: @fontColor;
+        background-color: @generalColor;
         text-transform: uppercase;
         text-decoration:none;
     }
@@ -115,12 +289,125 @@ body {
         display: flex;
         justify-content: space-between;
         flex-direction:row;
-        align-items: flex-start;
     }
 }
 
 .b-footer {
-    background-color: #efede7;
+    background-color:#efede7;
+    background-size: cover;
+    padding-top: 40px;
+
+    &__wrapper {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 33px;
+        border-bottom: @Border;
+    }
+
+    &__li {
+        margin-bottom: 4px;
+    }
+
+    &__link {
+        display:block;
+        color:@fontColor;
+        font-size:18px;
+        font-weight:700;
+        text-decoration:none;
+        margin-bottom:13px;
+    }
+
+    &__block {
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+
+        &--about {
+            width: 176px;
+            margin-right: 123px;
+        }
+        &--help {
+            width: 193px;
+            margin-right: 106px;
+        }
+
+        &--serveses {
+            margin-right: 81px;
+        }
+    }
+
+    &__list {
+        text-decoration:none;
+        color:@ContentText;
+        font-size:13px;
+        font-weight:500;
+    }
+
+    &__callback {
+         width: 221px;
+    }
+
+    &__title {
+        margin-top:0;
+        font-weight:700;
+        font-size:18px;
+        color:@fontColor;
+    }
+
+    &__number {
+        display: block;
+        margin-bottom: 4px;
+        font-weight:700;
+        font-size:15px;
+        text-transform:uppercase;
+        text-decoration:none;
+        color:@fontColor;
+    }
+
+    &__content {
+        font-weight:500;
+        font-size:13px;
+        margin-top: 0px;
+        margin-bottom: 15px;
+        color:@fontColor;
+    }
+
+    &__social {
+        width: 221px;
+    }
+
+    &__icon {
+        display:inline-block;
+
+        &--img {
+            width: 36px;
+            height: 36px;
+            margin-right: 5px;
+        }
+    }
+
+    &__logo {
+        display:flex;
+        justify-content:space-between;
+        margin-top: 24px; /* паддинг предыдущего блока не подошел, пока отступ маргином */
+        padding-bottom:40px;
+        }
+
+    &__copyright {
+        margin:0;
+        color:@ContentText;
+        font-size:13px;
+        font-weight:500;
+
+    }
+
+    &__webmaster {
+        text-decoration:none;
+        color:@ContentText;
+        font-size:13px;
+        font-weight:500;
+        margin-right: 70px;
+    }
 }
 
 
