@@ -61,6 +61,35 @@
 @SpecialPrice:#eb2e2c;
 @Border:1px solid #e4e1d9;
 
+
+.b-arrow {
+    width: 35px;
+    height: 35px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -47px;
+    border:1px solid #000;
+    background-repeat:no-repeat;
+    opacity: 0.2;
+
+    &--footer-right {
+        right: 0;
+        top: -54px;
+        background-image: url(../pictures/arrows/arrow-right.svg);
+        background-position-x: 10px;
+        background-position-y: 4px;
+    }
+
+    &--footer-left {
+        right: 47px;
+        top: -54px;
+        background-image: url(../pictures/arrows/arrow-left.svg);
+        background-position-x: 8px;
+        background-position-y: 4px;
+    }
+}
+
 * {
     box-sizing: border-box;
 }
@@ -72,6 +101,86 @@ body {
 .b-container {
     margin: 0 auto;
     width: 1190px;
+}
+
+.b-products {
+    padding-bottom: 76px;
+    border-bottom: 1px solid;
+
+    &__title {
+        font-size:@FontSizeH2;
+        margin: 0;
+        padding-bottom: 36px;
+    }
+
+    &__wrapper {
+        display:flex;
+        flex-direction:row;
+    }
+
+    &__link {
+        width: 260px;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        text-align: center;
+        margin-right: 35px;
+    }
+    &__img-container {
+        padding: 26px 0px 46px 40px;
+
+        &--box {
+            padding: 4px 0px 26px 40px;
+        }
+
+        &--watch {
+            padding: 23px 0px 45px 48px;
+        }
+
+        &--phone {
+            padding: 25px 0px 46px 60px;
+        }
+    }
+    &__img {
+        width: 131px;
+        height: auto;
+
+        &--box {
+        width: 133px;
+        }
+        
+        &--watch {
+        width: 216px;
+        }
+
+        &--phone {
+        width: 145px;
+        }
+    }
+    &__content {
+        text-align: left;
+        padding-left: 19px;
+    }
+    &__text {
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 700;
+        color: #666666;
+
+    }
+
+    &__price {
+        color: @fontColor;
+        display: block;
+        font-size: 24px;
+        font-weight: 900;
+        text-transform: none;
+        padding-top: 32px;
+
+        &--min {
+            font-size:12px;
+        }
+    }
 }
 
 .b-viewed {
@@ -88,30 +197,12 @@ body {
     &__title {
         font-size:@FontSizeH2;
         margin: 0;
+        padding-bottom: 36px;
     }
 
     &__arrow-container {
         margin-top:10px;
 
-    }
-
-    &__arrow {
-        
-
-        &--left {
-            border:1px solid #000;
-            opacity: 0.3;
-            width: 35px;
-            height: 35px;
-            margin-right: 5px;
-        }
-
-        &--right {
-            border:1px solid #000;
-            opacity: 0.3;
-            width: 35px;
-            height: 35px;
-        }
     }
 }
 

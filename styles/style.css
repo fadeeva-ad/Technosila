@@ -33,6 +33,31 @@
   font-weight: 900;
   font-style: normal;
 }
+.b-arrow {
+  width: 35px;
+  height: 35px;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: -47px;
+  border: 1px solid #000;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+}
+.b-arrow--footer-right {
+  right: 0;
+  top: -54px;
+  background-image: url(../pictures/arrows/arrow-right.svg);
+  background-position-x: 10px;
+  background-position-y: 4px;
+}
+.b-arrow--footer-left {
+  right: 47px;
+  top: -54px;
+  background-image: url(../pictures/arrows/arrow-left.svg);
+  background-position-x: 8px;
+  background-position-y: 4px;
+}
 * {
   box-sizing: border-box;
 }
@@ -42,6 +67,73 @@ body {
 .b-container {
   margin: 0 auto;
   width: 1190px;
+}
+.b-products {
+  padding-bottom: 76px;
+  border-bottom: 1px solid;
+}
+.b-products__title {
+  font-size: 25px;
+  margin: 0;
+  padding-bottom: 36px;
+}
+.b-products__wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.b-products__link {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  text-align: center;
+  margin-right: 35px;
+}
+.b-products__img-container {
+  padding: 26px 0px 46px 40px;
+}
+.b-products__img-container--box {
+  padding: 4px 0px 26px 40px;
+}
+.b-products__img-container--watch {
+  padding: 23px 0px 45px 48px;
+}
+.b-products__img-container--phone {
+  padding: 25px 0px 46px 60px;
+}
+.b-products__img {
+  width: 131px;
+  height: auto;
+}
+.b-products__img--box {
+  width: 133px;
+}
+.b-products__img--watch {
+  width: 216px;
+}
+.b-products__img--phone {
+  width: 145px;
+}
+.b-products__content {
+  text-align: left;
+  padding-left: 19px;
+}
+.b-products__text {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  color: #666666;
+}
+.b-products__price {
+  color: #161616;
+  display: block;
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: none;
+  padding-top: 32px;
+}
+.b-products__price--min {
+  font-size: 12px;
 }
 .b-viewed {
   padding-bottom: 58px;
@@ -56,22 +148,10 @@ body {
 .b-viewed__title {
   font-size: 25px;
   margin: 0;
+  padding-bottom: 36px;
 }
 .b-viewed__arrow-container {
   margin-top: 10px;
-}
-.b-viewed__arrow--left {
-  border: 1px solid #000;
-  opacity: 0.3;
-  width: 35px;
-  height: 35px;
-  margin-right: 5px;
-}
-.b-viewed__arrow--right {
-  border: 1px solid #000;
-  opacity: 0.3;
-  width: 35px;
-  height: 35px;
 }
 .b-slide {
   margin: 0;
