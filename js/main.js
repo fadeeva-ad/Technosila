@@ -32,6 +32,17 @@ $(document).ready(function(){
   });
 });
 
+$(document).ready(function(){
+  $('.b-mainslider').slick({
+        slidesToShow: 1,
+        autoplay: false,
+        autoplaySpeed: 2000,
+        dots: true,
+        centerMode: false,
+        prevArrow:'<a class="b-mainslider-arrow b-mainslider-arrow__left" href="javascript:void(0)" title=""></a>',
+        nextArrow:'<a class="b-mainslider-arrow b-mainslider-arrow__right" href="javascript:void(0)" title=""></a>'
+  });
+});
 
 
 // слайдер в хедере
