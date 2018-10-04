@@ -564,18 +564,18 @@ body {
 
 .b-bann-er{
         border-bottom: @Border;
-        padding-bottom: 55px;
+        padding-bottom: 57px;
         text-align:center;
 }
 
 .b-products {
-    padding-bottom: 23px;
+    padding-bottom: 26px;
     border-bottom: @Border;
 
     &__title {
         font-size:@FontSizeH2;
         padding-bottom: 36px;
-        padding-top: 56px;
+        padding-top: 53px;
     }
 
     &__wrapper {
@@ -634,6 +634,476 @@ body {
     }
 }
 
+.b-main-tab {
+
+    &__title {
+        text-transform: uppercase;
+        margin: 0;
+        font-size: 31px;
+        padding-top: 53px;
+        padding-bottom: 25px;;
+    }
+
+    &__menu {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        margin-right: 39px;
+        padding-bottom: 29px;
+    }
+
+    &__item {
+        display: inline-block;
+        width: 162px;
+        margin-right: 24px;
+
+        &--shortsize {
+            width: 90px;
+            margin-right: 41px;
+        }
+
+        &--mod {
+            width: 190px;
+            margin-right: 32px;
+        }
+    }
+
+    &__link{
+        color:@fontColor;
+        opacity: 0.7;
+    }
+
+    &__link:focus {
+        border-bottom: 5px solid @generalColor;
+        opacity: 1;
+        color:@fontColor;
+        padding-bottom:31px;
+        width:165px;
+    }
+
+    &__img-container {
+        display: inline-block;
+        width: 26px;
+        margin-right: 4px;
+        vertical-align: middle;
+    }
+
+    &__img {
+        width: 100%;
+    }
+
+    &__txt {
+        display:inline-block;
+        list-style: none;
+        text-decoration:none;
+        font-size:15px;
+        font-weight:500;
+        color:@fontColor;
+        text-transform: uppercase;
+    }
+
+    &__button {
+        display: inline-block;
+        font-weight: 500;
+        color: #161616;
+        text-decoration: none;
+        text-transform: uppercase;
+        border: 1px solid #dddddd;
+        font-size: 15px;
+        width: 183px;
+        height: 40px;
+        padding: 12px 19px;
+        outline: none;
+    }
+}
+
+.b-tab-content {
+    position:relative;
+    font-size: 0;
+    padding-bottom: 76px;
+
+    &__top {
+    display:block;
+    margin-bottom: 32px;
+    }
+    &__bottom {
+    display:block;
+    }
+    &__bg-imgbox {
+        margin-left: -19px;
+    }
+
+    &__bg-img {
+        position:absolute;
+        z-index: -1;
+    }
+    &__text {
+        margin:0;
+    }
+
+}
+.tab-paragraph {
+    display: inline-block;
+    width: 457px;
+    padding: 0px 0px 35px 0;
+    vertical-align: top;
+    margin-right: 142px;
+
+    &__title {
+        color: #ffffff;
+        margin: 0;
+        padding-top: 61px;
+        padding-bottom: 23px;
+        font-size: 34px;
+        width: 277px;
+        line-height: 45px;
+        letter-spacing: 0.4px;
+    }
+
+    &__text {
+        color: #dadada;
+        font-size: 15px;
+        margin: 0;
+        line-height: 21px;
+        margin-bottom:12px;
+    }
+
+    &__link {
+        display:inline-block;
+        margin-bottom:19px;
+        color:#949494;
+        text-decoration:none;
+        font-size:13px;
+    }
+
+    &__icon-container {
+        display:inline-block;
+        width:20px;
+        height:20px;
+        vertical-align: middle;
+        margin-right: 5px;
+    }
+
+    &__icon {
+        width:100%;
+    }
+
+    &__read-more {
+        width: 164px;
+        display: block;
+        padding: 13px 16px 10px 18px;
+        font-size: 15px;
+        font-family: "Museo Sans Cyrillic";
+        font-weight: 900;
+        color: #161616;
+        background-color: #ffdc00;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: -0.2px;
+    }
+
+    &__bg-imgbox {  /* пока хз */
+        margin-left: -46px;
+    }
+}
+
+.tab-paragraph-below {
+    display: inline-block;
+    width: 457px;
+    padding: 0px 0px 35px 0;
+    vertical-align: top;
+    margin-right: 142px;
+
+    &__title {
+        color: #161616;
+        margin: 0;
+        padding-top: 73px;
+        padding-bottom: 22px;
+        font-size: 34px;
+        width: 400px;
+        line-height: 45px;
+        letter-spacing: 0.4px;
+    }
+
+    &__text {
+        color: @fontColor;
+        font-size: 15px;
+        margin: 0;
+        line-height: 21px;
+        margin-bottom:13px;
+    }
+
+    &__link {
+        display:block;
+        margin-bottom:17px;
+        color:#949494;
+        text-decoration:none;
+        font-size:13px;
+    }
+
+    &__icon-container {
+        display:inline-block;
+        width:20px;
+        height:20px;
+        vertical-align: middle;
+        margin-right: 5px;
+    }
+
+    &__icon {
+        width:100%;
+    }
+
+    &__read-more {
+        width: 164px;
+        display: inline-block;
+        padding: 13px 16px 10px 18px;
+        margin-right: 10px;
+        font-size: 15px;
+        font-family: "Museo Sans Cyrillic";
+        font-weight: 900;
+        color: #161616;
+        background-color: #ffdc00;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: -0.2px;
+    }
+    &__all-products {
+        width: 134px;
+        display: inline-block;
+        padding: 13px 16px 9px 19px;
+        font-size: 15px;
+        font-family: "Museo Sans Cyrillic";
+        font-weight: 900;
+        color: #161616;
+        border: 1px solid #dddddd;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: -0.2px;
+    }
+
+    &__bg-imgbox {  /* пока хз */
+        margin-left: -46px;
+    }
+}
+
+.tab-product {
+    display: inline-block;
+    margin-top: 39px;
+    margin-right: 0;
+
+    &__wrapper {
+        display: inline-block;
+        width: 289px;
+        padding: 19px 10px 45px 19px;
+        vertical-align: top;
+        background-color: #ffffff;
+
+        &--marg {
+            margin-right: 11px;
+        }
+    }
+
+    &__bestseller{
+        display: block;
+        background-color: #309ace;
+        width: 36px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 11px;
+        font-weight: 900;
+        text-transform: uppercase;
+        padding: 4px 2px 2px 0px;
+        margin-bottom: 2px;
+    }
+    &__action{
+        display: block;
+        background-color: #eb2e2c;
+        width: 62px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 11px;
+        font-weight: 900;
+        text-transform: uppercase;
+        padding: 4px 6px 2px 2px;
+        text-decoration:none;
+    }
+    &__arrow-box {
+        display:inline-block;
+        width:13px;
+        height:11px;
+    }
+
+    &__arrow {
+        width:100%;
+    }
+
+    &__img-container{
+        width: 260px;/* ширина и высота, чтобы разные размеры img не ломали вид  */
+        height: 202px;
+        padding: 0px 33px 0px 25px;
+        margin-bottom: 7px;
+    }
+    &__img{
+        width:100%;
+    }
+    &__txt{
+        font-size: 15px;
+        color: #666666;
+        line-height: 20px;
+        display: block;
+        letter-spacing: 0.1px;
+        padding-bottom: 28px;
+    }
+
+    &__price{
+        display: block;
+        color: #eb2e2c;
+        font-size: 24px;
+        font-weight: 900;
+        text-transform: none;
+        vertical-align: bottom;
+        margin-bottom: 12px;
+        &--mod {
+            font-size: 12px;
+            margin-right: 2px;
+            vertical-align: middle;
+        }
+    }
+
+    &__oldprice{
+        width: 48px;
+        display: inline-block;
+        color: #161616;
+        font-size: 11px;
+        font-weight: 900;
+
+    }
+    &__conditions {
+        font-size: 13px;
+        color: #666666;
+        line-height: 17px;
+        display: block;
+        letter-spacing: 0.1px;
+        margin-bottom: 13px;
+        padding: 0 40px 0 0;
+    }
+}
+
+.tab-product-below {
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 0;
+
+    &__wrapper {
+        display: inline-block;
+        width: 289px;
+        padding: 18px 10px 27px 18px;
+        vertical-align: top;
+        background-color: #ffffff;
+        border: 1px solid #f4f4f4;
+
+        &--marg {
+            margin-right: 11px;
+        }
+        &--mod {
+            padding:50px 10px 27px 19px;
+        }
+    }
+
+    &__bestseller{
+        display: block;
+        background-color: #309ace;
+        width: 36px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 11px;
+        font-weight: 900;
+        text-transform: uppercase;
+        padding: 4px 2px 2px 0px;
+        margin-bottom: 2px;
+
+        &--mod {
+        display:none;
+        }
+    }
+    &__action{
+        display:  none;
+        background-color: #eb2e2c;
+        width: 62px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 11px;
+        font-weight: 900;
+        text-transform: uppercase;
+        padding: 4px 6px 2px 2px;
+        text-decoration:none;
+
+        &--mod {
+            display:none;
+        }
+    }
+    &__arrow-box {
+        display:inline-block;
+        width:13px;
+        height:11px;
+    }
+
+    &__arrow {
+        width:100%;
+    }
+
+    &__img-container{
+        width: 260px;/* ширина и высота, чтобы разные размеры img не ломали вид  */
+        height: 202px;
+        padding: 0px 33px 0px 25px;
+        margin-bottom: 7px;
+    }
+    &__img{
+        width:100%;
+    }
+    &__txt{
+        font-size: 15px;
+        color: #666666;
+        line-height: 20px;
+        display: block;
+        letter-spacing: 0.1px;
+        padding-bottom: 28px;
+    }
+
+    &__price{
+        display: block;
+        color: #eb2e2c;
+        font-size: 24px;
+        font-weight: 900;
+        text-transform: none;
+        vertical-align: bottom;
+        margin-bottom: 12px;
+        &--mod {
+            font-size: 12px;
+            margin-right: 2px;
+            vertical-align: middle;
+        }
+    }
+
+    &__oldprice{
+        width: 48px;
+        display: inline-block;
+        color: #161616;
+        font-size: 11px;
+        font-weight: 900;
+
+    }
+    &__conditions {
+        font-size: 13px;
+        color: #666666;
+        line-height: 17px;
+        display: block;
+        letter-spacing: 0.1px;
+        margin-bottom: 13px;
+        padding: 0 40px 0 0;
+    }
+}
+
 .b-viewed {
     padding-bottom:58px;
 
@@ -649,6 +1119,7 @@ body {
         font-size:@FontSizeH2;
         margin: 0;
         padding-bottom: 36px;
+        margin-left: -5px;
     }
 
     &__arrow-container {

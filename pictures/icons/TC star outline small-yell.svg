@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11">
+  <defs>
+    <style>
+      .a {
+        fill: #fee467;
+      }
+    </style>
+  </defs>
+  <title>TC star outline small-yell</title>
+  <path class="a" d="M13,8.06l1.1,2,.23.41.46.09,2,.38-1.49,1.33-.45.41.15.58.47,1.89-2.05-1L13,13.88l-.45.23-2.05,1L11,13.24l.15-.58-.45-.41L9.18,10.92l2-.38.46-.09L11.9,10l1.1-2M13,6,11,9.56l-4,.76L10,13,9,17l4-2,4,2-1-4,3-2.68-4-.76L13,6Z" transform="translate(-7 -6)"/>
+</svg>
