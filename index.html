@@ -1,1145 +1,1295 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="Name of project" content="">
-    <meta name="discription" content="Круглосуточная помощь в Ульяновске при ДТП">
-    <meta name="keywords" content="keywords">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui, user-scalable=no">
-    <title>Technosila</title>
-    <!-- Start: Styles -->
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
-    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
-    <link rel="stylesheet" type="text/less" href="styles/style.less">
-    <link rel="stylesheet" type="text/css" href="slick/slick/slick.css">
-    <link rel="stylesheet" type="text/css" href="slick/slick/slick-theme.css">
-    <link type="text/css" rel="stylesheet" href="js/node_modules/raty-js/lib/jquery.raty.css">
-    <!-- End: Styles -->
-    <link rel="shortcut icon" href="pictures/favicon.ico" type="image/x-icon">
+		<meta charset="UTF-8">
+		<meta name="Name of project" content="">
+		<meta name="discription" content="Круглосуточная помощь в Ульяновске при ДТП">
+		<meta name="keywords" content="keywords">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui, user-scalable=no">
+		<title>Technosila</title>
+		<!-- Start: Styles -->
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
+		<link rel="stylesheet" type="text/css" href="styles/normalize.css">
+		<link rel="stylesheet" type="text/less" href="styles/style.less">
+		<link rel="stylesheet" type="text/css" href="slick/slick/slick.css">
+		<link rel="stylesheet" type="text/css" href="slick/slick/slick-theme.css">
+		<link type="text/css" rel="stylesheet" href="js/node_modules/raty-js/lib/jquery.raty.css">
+		<!-- End: Styles -->
+		<link rel="shortcut icon" href="pictures/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <!-- Start: header -->
-    <section class="b-header">
-        <div class="b-header__location b-container">
-            <span class="b-header__city-txt">Город:</span>
-            <a href="javascript:void(0)" class="b-header__city"><span class="b-header__txt" >Набережные челны</span></a>
-            <div class="b-header__top-menu">
-                <a href="javascript:void(0)" class="b-header__top-item
-                b-header__top-item--firstmod">Магазины</a>
-                <a href="javascript:void(0)" class="b-header__top-item">Программа лояльности</a>
-                <a href="javascript:void(0)" class="b-header__top-item">Сервис и поддержка</a>
-                <a href="javascript:void(0)" class="b-header__top-item">Статус заказа</a>
-                <a href="javascript:void(0)" class="b-header__top-item b-header__top-item--secondmod">Акции</a>
-            </div>
-            <a class="b-header__number" href="tel:+7 800 775 21 00" title="8 800 775 21 00">8 800 775 21 00</a>
-        </div>
-        <!-- Start: search area -->
-        <div class="b-header__search-wrapper b-container">
-            <a href="" class="b-header__logo">
-                <img src="pictures/header/main-logo.png" alt="picture" class="b-header__img">
-            </a>
-            <div class="b-header__search-container">
-                <input type="text" name="search" class="b-header__searcharea" placeholder="Поиск среди 100 000 товаров">
-                <a class="b-header__search-link" href="javascript:void(0)">
-                    <img class="b-header__icon" src="pictures/header/search-pic.png">
-                </a>
-            </div>
-            <a href="javascript:void(0)" class="b-header__personal-acc">
-                <span class="b-header__office">Кабинет</span>
-                <span class="b-header__enter">Войти</span>
-            </a>
-           <!--  Start:basket + the number of purchases -->
-            <a class="b-basket" href="javascript:void(0)">
-                <img class="b-basket__icon" src="pictures/header/basket.png">
-                <span class="b-basket__number">13</span>
-            </a>
-            <!-- End:basket + the number of purchases -->
-        </div>
-        <!-- End: search area -->
-         <!-- Start: header menu -->
-        <div class="b-header__wrapper">
-           <ul class="b-header__menu b-container">
-               <li class="b-header__item">
-                    <a href="javascript:void(0)" class="b-header__link">Электроника</a>
-                </li>
-               <li class="b-header__item">
-                    <a href="javascript:void(0)" class="b-header__link">Бытовая техника</a>
-                </li>
-               <li class="b-header__item">
-                    <a href="javascript:void(0)" class="b-header__link">Ремонт и дача</a>
-                </li>
-               <li class="b-header__item">
-                    <a href="javascript:void(0)" class="b-header__link">Детские товары</a>
-                </li>
-               <li class="b-header__item">
-                    <a href="javascript:void(0)" class="b-header__link">Мебель</a>
-                </li>
-               <li class="b-header__item">
-                    <a href="javascript:void(0)" class="b-header__link">Спорт и туризм</a>
-                </li>
-               <li class="b-header__item">
-                    <a href="javascript:void(0)" class="b-header__link">Дом и дача</a>
-                </li>
-               <li class="b-header__item b-header__item--mod">
-                    <a href="javascript:void(0)" class="b-header__link">Авто</a>
-                </li>
-            </ul>
-        </div>
-        <!-- End: header menu -->
-    </section>
-    <!-- End: header -->
-    <!-- Start: main slider -->
-    <section class="b-mainslider">
-        <div class="b-mainslider__img-container">
-            <img class="b-mainslider__img" src="pictures/main-carousel/main-top-carousel1280.jpg">
-        </div>
-        <div class="b-mainslider__img-container">
-            <img class="b-mainslider__img" src="pictures/main-carousel/main-banner-knowledge.jpg">
-        </div>
-        <div class="b-mainslider__img-container">
-            <img class="b-mainslider__img" src="pictures/main-carousel/main-banner-sale.jpg">
-        </div>
-        <div class="b-mainslider__img-container">
-            <img class="b-mainslider__img" src="pictures/main-carousel/main-top-carousel1280.jpg">
-        </div>
-        <div class="b-mainslider__img-container">
-            <img class="b-mainslider__img" src="pictures/main-carousel/main-banner-knowledge.jpg">
-        </div>
-    </section>
-    <!-- End: main slider -->
-    <!-- Start: previev block -->
-    <section class="b-previev" >
-        <h2 class="b-previev__title b-container" >Лучшее и интересное</h2>
-        <div class="b-previev__wrapper b-container" >
-            <a class="b-previev__item" href="javascript:void(0)">
-                <div class="b-previev__img-container" >
-                    <img class="b-previev__img"  src="pictures/section3/best-fun-1.jpg" alt="picture">
-                </div>
-                <!-- Start - Another img`s sizes -->
-                <div class="b-previev__img-container b-previev__img-container--size600">
-                    <img class="b-previev__img-600"  src="pictures/section3/best-fun-1-600.jpg" alt="picture">
-                </div>
-                <!-- End - Another img`s sizes -->
-            </a>
-            <a class="b-previev__item" href="javascript:void(0)">
-                <div class="b-previev__img-container" >
-                    <img class="b-previev__img " src="pictures/section3/best-fun-2.jpg" alt="picture">
-                </div>
-                <!-- Start - Another img`s sizes -->
-                <div class="b-previev__img-container b-previev__img-container--size600" >
-                    <img class="b-previev__img-600"  src="pictures/section3/best-fun-2-600.jpg" alt="picture">
-                </div>
-                <div class="b-previev__img-container b-previev__img-container--size960" >
-                    <img class="b-previev__img-960"  src="pictures/section3/best-fun-2-960.jpg" alt="picture">
-                </div>
-                <!-- End - Another img`s sizes -->
-            </a>
-            <a class="b-previev__item" href="javascript:void(0)">
-                <div class="b-previev__img-container" >
-                    <img b-previev__img src="pictures/section3/best-fun-3.jpg" alt="picture">
-                </div>
-                <!-- Start - Another img`s sizes -->
-                <div class="b-previev__img-container b-previev__img-container--size600" >
-                    <img class="b-previev__img-600"  src="pictures/section3/best-fun-3-600.jpg" alt="picture">
-                </div>
-                <div class="b-previev__img-container b-previev__img-container--size960" >
-                    <img class="b-previev__img-960"  src="pictures/section3/best-fun-3-960.jpg" alt="picture">
-                </div>
-                <!-- End - Another img`s sizes -->
-            </a>
-            <a class="b-previev__item" href="javascript:void(0)">
-                <div class="b-previev__img-container" >
-                    <img b-previev__img src="pictures/section3/best-fun-4.jpg" alt="picture">
-                </div>
-                <!-- Start - Another img`s sizes -->
-                <div class="b-previev__img-container b-previev__img-container--size600" >
-                    <img class="b-previev__img-600"  src="pictures/section3/best-fun-4-600.jpg" alt="picture">
-                </div>
-                <div class="b-previev__img-container b-previev__img-container--size960" >
-                    <img class="b-previev__img-960"  src="pictures/section3/best-fun-4-960.jpg" alt="picture">
-                </div>
-                <!-- End - Another img`s sizes -->
-            </a>
-            <a class="b-previev__item" href="javascript:void(0)">
-                <div class="b-previev__img-container" >
-                    <img b-previev__img src="pictures/section3/best-fun-5.jpg" alt="picture">
-                </div>
-                <!-- Start - Another img`s sizes -->
-                <div class="b-previev__img-container b-previev__img-container--size600" >
-                    <img class="b-previev__img-600"  src="pictures/section3/best-fun-5-600.jpg" alt="picture">
-                </div>
-                <div class="b-previev__img-container b-previev__img-container--size960" >
-                    <img class="b-previev__img-960"  src="pictures/section3/best-fun-5-960.jpg" alt="picture">
-                </div>
-                <!-- End - Another img`s sizes -->
-            </a>
-            <a class="b-previev__item" href="javascript:void(0)">
-                <div class="b-previev__img-container" >
-                    <img b-previev__img src="pictures/section3/best-fun-6.jpg" alt="picture">
-                </div>
-                <!-- Start - Another img`s sizes -->
-                <div class="b-previev__img-container b-previev__img-container--size600" >
-                    <img class="b-previev__img-600"  src="pictures/section3/best-fun-6-600.jpg" alt="picture">
-                </div>
-                <div class="b-previev__img-container b-previev__img-container--size960" >
-                    <img class="b-previev__img-960"  src="pictures/section3/best-fun-6-960.jpg" alt="picture">
-                </div>
-                <!-- End - Another img`s sizes -->
-            </a>
-            <a class="b-previev__item" href="javascript:void(0)">
-                <div class="b-previev__img-container" >
-                    <img b-previev__img src="pictures/section3/best-fun-7.jpg" alt="picture">
-                </div>
-                <!-- Start - Another img`s sizes -->
-                <div class="b-previev__img-container b-previev__img-container--size600" >
-                    <img class="b-previev__img-600"  src="pictures/section3/best-fun-7-600.jpg" alt="picture">
-                </div>
-                <div class="b-previev__img-container b-previev__img-container--size960" >
-                    <img class="b-previev__img-960"  src="pictures/section3/best-fun-7-960.jpg" alt="picture">
-                </div>
-                <!-- End - Another img`s sizes -->
-            </a>
-            <a class="b-previev__item" href="javascript:void(0)">
-                <div class="b-previev__img-container" >
-                    <img b-previev__img src="pictures/section3/best-fun-8.jpg" alt="picture">
-                </div>
-                <!-- Start - Another img`s sizes -->
-                <div class="b-previev__img-container b-previev__img-container--size600" >
-                    <img class="b-previev__img-600"  src="pictures/section3/best-fun-8-600.jpg" alt="picture">
-                </div>
-                <div class="b-previev__img-container b-previev__img-container--size960" >
-                    <img class="b-previev__img-960"  src="pictures/section3/best-fun-8-960.jpg" alt="picture">
-                </div>
-                <!-- End - Another img`s sizes -->
-            </a>
-        </div>
-    </section>
-    <!-- End: previev block -->
+		<!-- Start: header -->
+		<section class="b-header">
+				<div class="b-header__location b-container">
+						<span class="b-header__city-txt">Город:</span>
+						<a href="javascript:void(0)" class="b-header__city"><span class="b-header__txt" >Набережные челны</span></a>
+						<div class="b-header__top-menu">
+								<a href="javascript:void(0)" class="b-header__top-item
+								b-header__top-item--firstmod">Магазины</a>
+								<a href="javascript:void(0)" class="b-header__top-item">Программа лояльности</a>
+								<a href="javascript:void(0)" class="b-header__top-item">Сервис и поддержка</a>
+								<a href="javascript:void(0)" class="b-header__top-item">Статус заказа</a>
+								<a href="javascript:void(0)" class="b-header__top-item b-header__top-item--secondmod">Акции</a>
+						</div>
+						<a class="b-header__number" href="tel:+7 800 775 21 00" title="8 800 775 21 00">8 800 775 21 00</a>
+				</div>
+				<!-- Start: search area -->
+				<div class="b-header__search-wrapper b-container">
+						<a href="" class="b-header__logo">
+								<img src="pictures/header/main-logo.png" alt="picture" class="b-header__img">
+						</a>
+						<div class="b-header__search-container">
+								<input type="text" name="search" class="b-header__searcharea" placeholder="Поиск среди 100 000 товаров">
+								<a class="b-header__search-link" href="javascript:void(0)">
+										<img class="b-header__icon" src="pictures/header/search-pic.png">
+								</a>
+						</div>
+						<a href="javascript:void(0)" class="b-header__personal-acc">
+								<span class="b-header__office">Кабинет</span>
+								<span class="b-header__enter">Войти</span>
+						</a>
+					 <!--  Start:basket + the number of purchases -->
+						<a class="b-basket" href="javascript:void(0)">
+								<img class="b-basket__icon" src="pictures/header/basket.png">
+								<span class="b-basket__number">13</span>
+						</a>
+						<!-- End:basket + the number of purchases -->
+				</div>
+				<!-- End: search area -->
+				 <!-- Start: header menu -->
+				<div class="b-header__wrapper">
+					 <ul class="b-header__menu b-container">
+							 <li class="b-header__item">
+										<a href="javascript:void(0)" class="b-header__link">Электроника</a>
+								</li>
+							 <li class="b-header__item">
+										<a href="javascript:void(0)" class="b-header__link">Бытовая техника</a>
+								</li>
+							 <li class="b-header__item">
+										<a href="javascript:void(0)" class="b-header__link">Ремонт и дача</a>
+								</li>
+							 <li class="b-header__item">
+										<a href="javascript:void(0)" class="b-header__link">Детские товары</a>
+								</li>
+							 <li class="b-header__item">
+										<a href="javascript:void(0)" class="b-header__link">Мебель</a>
+								</li>
+							 <li class="b-header__item">
+										<a href="javascript:void(0)" class="b-header__link">Спорт и туризм</a>
+								</li>
+							 <li class="b-header__item">
+										<a href="javascript:void(0)" class="b-header__link">Дом и дача</a>
+								</li>
+							 <li class="b-header__item b-header__item--mod">
+										<a href="javascript:void(0)" class="b-header__link">Авто</a>
+								</li>
+						</ul>
+				</div>
+				<!-- End: header menu -->
+		</section>
+		<!-- End: header -->
+		<!-- Start: main slider -->
+		<section class="b-mainslider">
+				<div class="b-mainslider__img-container">
+						<img class="b-mainslider__img" src="pictures/main-carousel/main-top-carousel1280.jpg">
+				</div>
+				<div class="b-mainslider__img-container">
+						<img class="b-mainslider__img" src="pictures/main-carousel/main-banner-knowledge.jpg">
+				</div>
+				<div class="b-mainslider__img-container">
+						<img class="b-mainslider__img" src="pictures/main-carousel/main-banner-sale.jpg">
+				</div>
+				<div class="b-mainslider__img-container">
+						<img class="b-mainslider__img" src="pictures/main-carousel/main-top-carousel1280.jpg">
+				</div>
+				<div class="b-mainslider__img-container">
+						<img class="b-mainslider__img" src="pictures/main-carousel/main-banner-knowledge.jpg">
+				</div>
+		</section>
+		<!-- End: main slider -->
+		<!-- Start: previev block -->
+		<section class="b-previev" >
+				<h2 class="b-previev__title b-container" >Лучшее и интересное</h2>
+				<div class="b-previev__wrapper b-container" >
+						<a class="b-previev__item" href="javascript:void(0)">
+								<div class="b-previev__img-container" >
+										<img class="b-previev__img"  src="pictures/section3/best-fun-1.jpg" alt="picture">
+								</div>
+								<!-- Start - Another img`s sizes -->
+								<div class="b-previev__img-container b-previev__img-container--size600">
+										<img class="b-previev__img-600"  src="pictures/section3/best-fun-1-600.jpg" alt="picture">
+								</div>
+								<!-- End - Another img`s sizes -->
+						</a>
+						<a class="b-previev__item" href="javascript:void(0)">
+								<div class="b-previev__img-container" >
+										<img class="b-previev__img " src="pictures/section3/best-fun-2.jpg" alt="picture">
+								</div>
+								<!-- Start - Another img`s sizes -->
+								<div class="b-previev__img-container b-previev__img-container--size600" >
+										<img class="b-previev__img-600"  src="pictures/section3/best-fun-2-600.jpg" alt="picture">
+								</div>
+								<div class="b-previev__img-container b-previev__img-container--size960" >
+										<img class="b-previev__img-960"  src="pictures/section3/best-fun-2-960.jpg" alt="picture">
+								</div>
+								<!-- End - Another img`s sizes -->
+						</a>
+						<a class="b-previev__item" href="javascript:void(0)">
+								<div class="b-previev__img-container" >
+										<img b-previev__img src="pictures/section3/best-fun-3.jpg" alt="picture">
+								</div>
+								<!-- Start - Another img`s sizes -->
+								<div class="b-previev__img-container b-previev__img-container--size600" >
+										<img class="b-previev__img-600"  src="pictures/section3/best-fun-3-600.jpg" alt="picture">
+								</div>
+								<div class="b-previev__img-container b-previev__img-container--size960" >
+										<img class="b-previev__img-960"  src="pictures/section3/best-fun-3-960.jpg" alt="picture">
+								</div>
+								<!-- End - Another img`s sizes -->
+						</a>
+						<a class="b-previev__item" href="javascript:void(0)">
+								<div class="b-previev__img-container" >
+										<img b-previev__img src="pictures/section3/best-fun-4.jpg" alt="picture">
+								</div>
+								<!-- Start - Another img`s sizes -->
+								<div class="b-previev__img-container b-previev__img-container--size600" >
+										<img class="b-previev__img-600"  src="pictures/section3/best-fun-4-600.jpg" alt="picture">
+								</div>
+								<div class="b-previev__img-container b-previev__img-container--size960" >
+										<img class="b-previev__img-960"  src="pictures/section3/best-fun-4-960.jpg" alt="picture">
+								</div>
+								<!-- End - Another img`s sizes -->
+						</a>
+						<a class="b-previev__item" href="javascript:void(0)">
+								<div class="b-previev__img-container" >
+										<img b-previev__img src="pictures/section3/best-fun-5.jpg" alt="picture">
+								</div>
+								<!-- Start - Another img`s sizes -->
+								<div class="b-previev__img-container b-previev__img-container--size600" >
+										<img class="b-previev__img-600"  src="pictures/section3/best-fun-5-600.jpg" alt="picture">
+								</div>
+								<div class="b-previev__img-container b-previev__img-container--size960" >
+										<img class="b-previev__img-960"  src="pictures/section3/best-fun-5-960.jpg" alt="picture">
+								</div>
+								<!-- End - Another img`s sizes -->
+						</a>
+						<a class="b-previev__item" href="javascript:void(0)">
+								<div class="b-previev__img-container" >
+										<img b-previev__img src="pictures/section3/best-fun-6.jpg" alt="picture">
+								</div>
+								<!-- Start - Another img`s sizes -->
+								<div class="b-previev__img-container b-previev__img-container--size600" >
+										<img class="b-previev__img-600"  src="pictures/section3/best-fun-6-600.jpg" alt="picture">
+								</div>
+								<div class="b-previev__img-container b-previev__img-container--size960" >
+										<img class="b-previev__img-960"  src="pictures/section3/best-fun-6-960.jpg" alt="picture">
+								</div>
+								<!-- End - Another img`s sizes -->
+						</a>
+						<a class="b-previev__item" href="javascript:void(0)">
+								<div class="b-previev__img-container" >
+										<img b-previev__img src="pictures/section3/best-fun-7.jpg" alt="picture">
+								</div>
+								<!-- Start - Another img`s sizes -->
+								<div class="b-previev__img-container b-previev__img-container--size600" >
+										<img class="b-previev__img-600"  src="pictures/section3/best-fun-7-600.jpg" alt="picture">
+								</div>
+								<div class="b-previev__img-container b-previev__img-container--size960" >
+										<img class="b-previev__img-960"  src="pictures/section3/best-fun-7-960.jpg" alt="picture">
+								</div>
+								<!-- End - Another img`s sizes -->
+						</a>
+						<a class="b-previev__item" href="javascript:void(0)">
+								<div class="b-previev__img-container" >
+										<img b-previev__img src="pictures/section3/best-fun-8.jpg" alt="picture">
+								</div>
+								<!-- Start - Another img`s sizes -->
+								<div class="b-previev__img-container b-previev__img-container--size600" >
+										<img class="b-previev__img-600"  src="pictures/section3/best-fun-8-600.jpg" alt="picture">
+								</div>
+								<div class="b-previev__img-container b-previev__img-container--size960" >
+										<img class="b-previev__img-960"  src="pictures/section3/best-fun-8-960.jpg" alt="picture">
+								</div>
+								<!-- End - Another img`s sizes -->
+						</a>
+				</div>
+		</section>
+		<!-- End: previev block -->
 
-    <!-- Start: Section with orange advantages-block -->
-    <section class="b-round">
-        <h2 class="b-round__title">lorem</h2>
-        <div class="b-round__wrapper b-container">
-            <figure class="b-round__figure">
-                <div class="b-round__img-container">
-                    <img class="b-round__img"
-                   alt="picture" src="pictures/round-img/round-1.png">
-                </div>
-                <figcaption class="b-round__txt b-round__txt--mod">Бесплатная доставка от 5 000 р.</figcaption>
-            </figure>
-            <figure class="b-round__figure">
-                <div class="b-round__img-container">
-                    <img class="b-round__img" alt="picture" src="pictures/round-img/round-2.png">
-                </div>
-                <figcaption class="b-round__txt">Гарантия честной цены</figcaption>
-            </figure>
-            <figure class="b-round__figure">
-                <div class="b-round__img-container">
-                    <img class="b-round__img" alt="picture" src="pictures/round-img/round-3.png">
-                </div>
-                <figcaption class="b-round__txt">Возврат в течение 60 дней</figcaption>
-            </figure>
-            <figure class="b-round__figure">
-                <div class="b-round__img-container">
-                    <img class="b-round__img" alt="picture" src="pictures/round-img/round-4.png">
-                </div>
-                <figcaption class="b-round__txt b-round__txt--mod-one">Покупайте сейчас, платите позже</figcaption>
-            </figure>
-        </div>
-    </section>
-    <!-- End: Section with orange advantages-block -->
-    <!-- Start: Product category -->
-    <section class="b-category">
-        <h2 class="b-category__title b-container">Вдохновляющий выбор</h2>
-        <ul class="b-category__wrapper b-container">
-            <li class="b-category__list">
-                <a class="b-category__item" href="javascript:void(0)">
-                    <span class="b-category__img-container">
-                        <img class="b-category__img" alt="picture" src="pictures/choice/main-choice-1.jpg">
-                    </span>
-                    <span class="b-category__txt">Электроника</span>
-                </a>
-            </li>
-            <li class="b-category__list">
-                <a class="b-category__item" href="javascript:void(0)">
-                    <span class="b-category__img-container">
-                        <img class="b-category__img" alt="picture" src="pictures/choice/main-choice-2.jpg">
-                    </span>
-                    <span class="b-category__txt">Бытовая техника</span>
-                </a>
-            </li>
-            <li class="b-category__list">
-                <a class="b-category__item" href="javascript:void(0)">
-                    <span class="b-category__img-container">
-                        <img class="b-category__img" alt="picture" src="pictures/choice/main-choice-3.jpg">
-                    </span>
-                    <span class="b-category__txt">Ремонт и дача</span>
-                </a>
-            </li>
-            <li class="b-category__list">
-                <a class="b-category__item" href="javascript:void(0)">
-                    <span class="b-category__img-container">
-                        <img class="b-category__img" alt="picture" src="pictures/choice/main-choice-4.jpg">
-                    </span>
-                    <span class="b-category__txt">Детские товары</span>
-                </a>
-            </li>
-            <li class="b-category__list">
-                <a class="b-category__item" href="javascript:void(0)">
-                    <span class="b-category__img-container">
-                        <img class="b-category__img" alt="picture" src="pictures/choice/main-choice-5.jpg">
-                    </span>
-                    <span class="b-category__txt">Мебель</span>
-                </a>
-            </li>
-            <li class="b-category__list">
-                <a class="b-category__item" href="javascript:void(0)">
-                    <span class="b-category__img-container">
-                        <img class="b-category__img" alt="picture" src="pictures/choice/main-choice-6.jpg">
-                    </span>
-                    <span class="b-category__txt">Спорт и туризм</span>
-                </a>
-            </li>
-            <li class="b-category__list">
-                <a class="b-category__item" href="javascript:void(0)">
-                    <span class="b-category__img-container">
-                        <img class="b-category__img" alt="picture" src="pictures/choice/main-choice-7.jpg">
-                    </span>
-                    <span class="b-category__txt">Дом и дача</span>
-                </a>
-            </li>
-            <li class="b-category__list">
-                <a class="b-category__item" href="javascript:void(0)">
-                    <span class="b-category__img-container">
-                        <img class="b-category__img" alt="picture" src="pictures/choice/main-choice-8.jpg">
-                    </span>
-                    <span class="b-category__txt">Авто</span>
-                </a>
-            </li>
-        </ul>
-    </section>
-        <!-- End: Product category -->
-        <!-- Start: b-brands slider -->
-    <section class="b-brands b-container">
-        <div class="b-brands__ttl-wrapper">
-            <h2 class="b-brands__title">Бренды</h2>
-            <a class="b-brands__ttl-link" href="javascript:void(0)">Ко всем брендам</a>
-        </div>
-        <div class="b-brands__wrapper">
-            <a class="b-brands__link" href="javascript:void(0)">
-                <span class="b-brands__img-container">
-                    <img class="b-brands__img" src="pictures/brands/brand-1.jpg" alt="picture">
-                </span>
-            </a>
-            <a class="b-brands__link" href="javascript:void(0)">
-                <span class="b-brands__img-container">
-                    <img class="b-brands__img" src="pictures/brands/brand-2.jpg" alt="picture">
-                </span>
-            </a>
-            <a class="b-brands__link" href="javascript:void(0)">
-                <span class="b-brands__img-container">
-                    <img class="b-brands__img" src="pictures/brands/brand-3.png" alt="picture">
-                </span>
-            </a>
-            <a class="b-brands__link" href="javascript:void(0)">
-                <span class="b-brands__img-container">
-                    <img class="b-brands__img" src="pictures/brands/brand-4.png" alt="picture">
-                </span>
-            </a>
-            <a class="b-brands__link" href="javascript:void(0)">
-                <span class="b-brands__img-container">
-                    <img class="b-brands__img" src="pictures/brands/brand-5.png" alt="picture">
-                </span>
-            </a>
-            <a class="b-brands__link" href="javascript:void(0)">
-                <span class="b-brands__img-container">
-                    <img class="b-brands__img" src="pictures/brands/brand-6.jpg" alt="picture">
-                </span>
-            </a>
-            <a class="b-brands__link" href="javascript:void(0)">
-                <span class="b-brands__img-container">
-                    <img class="b-brands__img" src="pictures/brands/brand-6.jpg" alt="picture">
-                </span>
-            </a>
-        </div>
-    </section>
-    <!-- End: b-brands slider -->
-    <div class="b-bann-er">
-        <img class="b-bann-er__img" alt="picture" src="pictures/main-banner.jpg">
-    </div>  <!-- использовала див  вместо секции, так как секцию не рекомендовано использовать в качестве обертки -->
+		<!-- Start: Section with orange advantages-block -->
+		<section class="b-round">
+				<h2 class="b-round__title">lorem</h2>
+				<div class="b-round__wrapper b-container">
+						<figure class="b-round__figure">
+								<div class="b-round__img-container">
+										<img class="b-round__img"
+									 alt="picture" src="pictures/round-img/round-1.png">
+								</div>
+								<figcaption class="b-round__txt b-round__txt--mod">Бесплатная доставка от 5 000 р.</figcaption>
+						</figure>
+						<figure class="b-round__figure">
+								<div class="b-round__img-container">
+										<img class="b-round__img" alt="picture" src="pictures/round-img/round-2.png">
+								</div>
+								<figcaption class="b-round__txt">Гарантия честной цены</figcaption>
+						</figure>
+						<figure class="b-round__figure">
+								<div class="b-round__img-container">
+										<img class="b-round__img" alt="picture" src="pictures/round-img/round-3.png">
+								</div>
+								<figcaption class="b-round__txt">Возврат в течение 60 дней</figcaption>
+						</figure>
+						<figure class="b-round__figure">
+								<div class="b-round__img-container">
+										<img class="b-round__img" alt="picture" src="pictures/round-img/round-4.png">
+								</div>
+								<figcaption class="b-round__txt b-round__txt--mod-one">Покупайте сейчас, платите позже</figcaption>
+						</figure>
+				</div>
+		</section>
+		<!-- End: Section with orange advantages-block -->
+		<!-- Start: Product category -->
+		<section class="b-category">
+				<h2 class="b-category__title b-container">Вдохновляющий выбор</h2>
+				<ul class="b-category__wrapper b-container">
+						<li class="b-category__list">
+								<a class="b-category__item" href="javascript:void(0)">
+										<span class="b-category__img-container">
+												<img class="b-category__img" alt="picture" src="pictures/choice/main-choice-1.jpg">
+										</span>
+										<span class="b-category__txt">Электроника</span>
+								</a>
+						</li>
+						<li class="b-category__list">
+								<a class="b-category__item" href="javascript:void(0)">
+										<span class="b-category__img-container">
+												<img class="b-category__img" alt="picture" src="pictures/choice/main-choice-2.jpg">
+										</span>
+										<span class="b-category__txt">Бытовая техника</span>
+								</a>
+						</li>
+						<li class="b-category__list">
+								<a class="b-category__item" href="javascript:void(0)">
+										<span class="b-category__img-container">
+												<img class="b-category__img" alt="picture" src="pictures/choice/main-choice-3.jpg">
+										</span>
+										<span class="b-category__txt">Ремонт и дача</span>
+								</a>
+						</li>
+						<li class="b-category__list">
+								<a class="b-category__item" href="javascript:void(0)">
+										<span class="b-category__img-container">
+												<img class="b-category__img" alt="picture" src="pictures/choice/main-choice-4.jpg">
+										</span>
+										<span class="b-category__txt">Детские товары</span>
+								</a>
+						</li>
+						<li class="b-category__list">
+								<a class="b-category__item" href="javascript:void(0)">
+										<span class="b-category__img-container">
+												<img class="b-category__img" alt="picture" src="pictures/choice/main-choice-5.jpg">
+										</span>
+										<span class="b-category__txt">Мебель</span>
+								</a>
+						</li>
+						<li class="b-category__list">
+								<a class="b-category__item" href="javascript:void(0)">
+										<span class="b-category__img-container">
+												<img class="b-category__img" alt="picture" src="pictures/choice/main-choice-6.jpg">
+										</span>
+										<span class="b-category__txt">Спорт и туризм</span>
+								</a>
+						</li>
+						<li class="b-category__list">
+								<a class="b-category__item" href="javascript:void(0)">
+										<span class="b-category__img-container">
+												<img class="b-category__img" alt="picture" src="pictures/choice/main-choice-7.jpg">
+										</span>
+										<span class="b-category__txt">Дом и дача</span>
+								</a>
+						</li>
+						<li class="b-category__list">
+								<a class="b-category__item" href="javascript:void(0)">
+										<span class="b-category__img-container">
+												<img class="b-category__img" alt="picture" src="pictures/choice/main-choice-8.jpg">
+										</span>
+										<span class="b-category__txt">Авто</span>
+								</a>
+						</li>
+				</ul>
+		</section>
+				<!-- End: Product category -->
+				<!-- Start: b-brands slider -->
+		<section class="b-brands b-container">
+				<div class="b-brands__ttl-wrapper">
+						<h2 class="b-brands__title">Бренды</h2>
+						<a class="b-brands__ttl-link" href="javascript:void(0)">Ко всем брендам</a>
+				</div>
+				<div class="b-brands__wrapper">
+						<a class="b-brands__link" href="javascript:void(0)">
+								<span class="b-brands__img-container">
+										<img class="b-brands__img" src="pictures/brands/brand-1.jpg" alt="picture">
+								</span>
+						</a>
+						<a class="b-brands__link" href="javascript:void(0)">
+								<span class="b-brands__img-container">
+										<img class="b-brands__img" src="pictures/brands/brand-2.jpg" alt="picture">
+								</span>
+						</a>
+						<a class="b-brands__link" href="javascript:void(0)">
+								<span class="b-brands__img-container">
+										<img class="b-brands__img" src="pictures/brands/brand-3.png" alt="picture">
+								</span>
+						</a>
+						<a class="b-brands__link" href="javascript:void(0)">
+								<span class="b-brands__img-container">
+										<img class="b-brands__img" src="pictures/brands/brand-4.png" alt="picture">
+								</span>
+						</a>
+						<a class="b-brands__link" href="javascript:void(0)">
+								<span class="b-brands__img-container">
+										<img class="b-brands__img" src="pictures/brands/brand-5.png" alt="picture">
+								</span>
+						</a>
+						<a class="b-brands__link" href="javascript:void(0)">
+								<span class="b-brands__img-container">
+										<img class="b-brands__img" src="pictures/brands/brand-6.jpg" alt="picture">
+								</span>
+						</a>
+						<a class="b-brands__link" href="javascript:void(0)">
+								<span class="b-brands__img-container">
+										<img class="b-brands__img" src="pictures/brands/brand-6.jpg" alt="picture">
+								</span>
+						</a>
+				</div>
+		</section>
+		<!-- End: b-brands slider -->
+		<div class="b-bann-er">
+				<img class="b-bann-er__img" alt="picture" src="pictures/main-banner.jpg">
+		</div>  <!-- использовала див  вместо секции, так как секцию не рекомендовано использовать в качестве обертки -->
 
 
-    <!-- Start: b-products slider -->
-    <section class="b-products">
-        <h2 class="b-products__title b-container">Вас может заинтересовать</h2>
-            <div class="b-products__wrapper b-container">
-                <a class="b-products__link" href="javascript:void(0)">
-                    <span class="b-products__img-container ">
-                        <img class="b-products__img" src="pictures/section7/beats-2white.jpg" alt="picture">
-                    </span>
-                    <span class="b-products__content">
-                        <span class="b-products__text">Проводные наушники Beats Solo 2 White</span>
-                        <span class="b-products__price">3 990<span class="b-products__price--min">&#8194;р.</span></span>
-                    </span>
-                </a>
-                <a class="b-products__link" href="javascript:void(0)">
-                    <span class="b-products__img-container b-products__img-container--box">
-                        <img class="b-products__img b-products__img--box" src="pictures/section7/phone.jpg" alt="picture">
-                    </span>
-                    <span class="b-products__content">
-                        <span class="b-products__text">Проводные наушники Beats Solo 2 White</span>
-                        <span class="b-products__price">2 499<span class="b-products__price--min">&#8194;р.</span></span>
-                    </span>
-                </a>
-                <a class="b-products__link" href="javascript:void(0)">
-                    <span class="b-products__img-container b-products__img-container--watch">
-                        <img class="b-products__img b-products__img--watch" src="pictures/section7/watch.png" alt="picture">
-                    </span>
-                    <span class="b-products__content">
-                        <span class="b-products__text">Проводные наушники Beats Solo 2 White</span>
-                        <span class="b-products__price">24 990<span class="b-products__price--min">&#8194;р.</span></span>
-                    </span>
-                </a>
-                <a class="b-products__link" href="javascript:void(0)">
-                    <span class="b-products__img-container b-products__img-container--phone">
-                        <img class="b-products__img b-products__img--phone" src="pictures/section7/Harmon.jpg" alt="picture">
-                    </span>
-                    <span class="b-products__content">
-                        <span class="b-products__text">Проводные наушники Beats Solo 2 White</span>
-                        <span class="b-products__price">15 990<span class="b-products__price--min">&#8194;р.</span></span>
-                    </span>
-                </a>
-                <a class="b-products__link" href="javascript:void(0)">
-                    <span class="b-products__img-container b-products__img-container--phone">
-                        <img class="b-products__img b-products__img--phone" src="pictures/section7/Harmon.jpg" alt="picture">
-                    </span>
-                    <span class="b-products__content">
-                    <span class="b-products__text">Проводные наушники Beats Solo 2 White</span>
-                    <span class="b-products__price">15 990<span class="b-products__price--min">&#8194;р.</span></span>
-                    </span>
-                </a>
-            </div>
-        </section>
-    <!-- End: b-products slider -->
-    <!-- Start : block with tab -->
-    <div class="b-main-tab b-container">
-        <h2 class="b-main-tab__title">Знание - сила</h2>
-        <ul class="b-main-tab__menu">
-            <li class="b-main-tab__item">
-                <a href="javascript:void(0)" class="b-main-tab__link">
-                    <span class="b-main-tab__img-container">
-                        <img class="b-main-tab__img" src="pictures/icons/TC heart.svg">
-                    </span>
-                    <span class="b-main-tab__txt">Рекомендуем</span>
-                </a>
-            </li>
-            <li class="b-main-tab__item">
-                <a href="javascript:void(0)" class="b-main-tab__link">
-                    <span class="b-main-tab__img-container">
-                        <img class="b-main-tab__img" src="pictures/icons/TC heart.svg">
-                    </span>
-                    <span class="b-main-tab__txt">Как выбрать</span>
-                </a>
-            </li>
-            <li class="b-main-tab__item b-main-tab__item--shortsize ">
-                <a href="javascript:void(0)" class="b-main-tab__link">
-                    <span class="b-main-tab__img-container">
-                        <img class="b-main-tab__img" src="pictures/icons/TC heart.svg">
-                    </span>
-                    <span class="b-main-tab__txt">Видео</span>
-                </a>
-            </li>
-            <li class="b-main-tab__item b-main-tab__item--mod ">
-                <a href="javascript:void(0)" class="b-main-tab__link">
-                    <span class="b-main-tab__img-container">
-                        <img class="b-main-tab__img" src="pictures/icons/TC heart.svg">
-                    </span>
-                    <span class="b-main-tab__txt">Обзоры новинок</span>
-                </a>
-            </li>
-            <li class="b-main-tab__item b-main-tab__item--mod ">
-                <a href="javascript:void(0)" class="b-main-tab__link">
-                    <span class="b-main-tab__img-container">
-                        <img class="b-main-tab__img" src="pictures/icons/TC heart.svg">
-                    </span>
-                    <span class="b-main-tab__txt">Списки покупок</span>
-                </a>
-            </li>
-        </ul>
-        <a href="javascript:void(0)" class="b-main-tab__button">Перейти в раздел</a>
-        <!-- Start: tab`s content -->
-        <div class="b-tab-content">
-            <div class="b-tab-content__bg-imgbox"> <!-- пока хз -->
-                <img class="b-tab-content__bg-img" src="main-tab-1.jpg" >
-            </div>
-            <!-- start : first tab -->
-            <div class="b-tab-content__item">
-                <div class="b-tab-content__top">
-                    <div class="tab-paragraph">
-                        <h2 class="tab-paragraph__title">Как выбрать фитнес-браслет</h2>
-                        <p class="tab-paragraph__text">При покупке умного браслета учитывайте то, что они бывают
-                        с дисплеем и без. А также обращайте внимание на размер, <br>т.к. уменьшить браслет невозможно. Для нормальной работы гаджета не лишним будет наличие смартфона, и чем новее операционная система, тем лучше. Есть множество примеров, когда браслет является совершенно бесполезным<br>без соответствующего приложения на телефоне.</p>
-                        <a href="javascript:void(0)" class="tab-paragraph__link">
-                            <span class="tab-paragraph__icon-container">
-                            <img src="pictures/icons/question.svg" alt="picture" class="tab-paragraph__icon"></span>Как выбрать
-                        </a>
-                        <a class="tab-paragraph__read-more" href="javascript:void(0)">Читать дальше
-                        </a>
-                    </div>
+		<!-- Start: b-products slider -->
+		<section class="b-products">
+				<h2 class="b-products__title b-container">Вас может заинтересовать</h2>
+						<div class="b-products__wrapper b-container">
+								<a class="b-products__link" href="javascript:void(0)">
+										<span class="b-products__img-container ">
+												<img class="b-products__img" src="pictures/section7/beats-2white.jpg" alt="picture">
+										</span>
+										<span class="b-products__content">
+												<span class="b-products__text">Проводные наушники Beats Solo 2 White</span>
+												<span class="b-products__price">3 990<span class="b-products__price--min">&#8194;р.</span></span>
+										</span>
+								</a>
+								<a class="b-products__link" href="javascript:void(0)">
+										<span class="b-products__img-container b-products__img-container--box">
+												<img class="b-products__img b-products__img--box" src="pictures/section7/phone.jpg" alt="picture">
+										</span>
+										<span class="b-products__content">
+												<span class="b-products__text">Проводные наушники Beats Solo 2 White</span>
+												<span class="b-products__price">2 499<span class="b-products__price--min">&#8194;р.</span></span>
+										</span>
+								</a>
+								<a class="b-products__link" href="javascript:void(0)">
+										<span class="b-products__img-container b-products__img-container--watch">
+												<img class="b-products__img b-products__img--watch" src="pictures/section7/watch.png" alt="picture">
+										</span>
+										<span class="b-products__content">
+												<span class="b-products__text">Проводные наушники Beats Solo 2 White</span>
+												<span class="b-products__price">24 990<span class="b-products__price--min">&#8194;р.</span></span>
+										</span>
+								</a>
+								<a class="b-products__link" href="javascript:void(0)">
+										<span class="b-products__img-container b-products__img-container--phone">
+												<img class="b-products__img b-products__img--phone" src="pictures/section7/Harmon.jpg" alt="picture">
+										</span>
+										<span class="b-products__content">
+												<span class="b-products__text">Проводные наушники Beats Solo 2 White</span>
+												<span class="b-products__price">15 990<span class="b-products__price--min">&#8194;р.</span></span>
+										</span>
+								</a>
+								<a class="b-products__link" href="javascript:void(0)">
+										<span class="b-products__img-container b-products__img-container--phone">
+												<img class="b-products__img b-products__img--phone" src="pictures/section7/Harmon.jpg" alt="picture">
+										</span>
+										<span class="b-products__content">
+										<span class="b-products__text">Проводные наушники Beats Solo 2 White</span>
+										<span class="b-products__price">15 990<span class="b-products__price--min">&#8194;р.</span></span>
+										</span>
+								</a>
+						</div>
+				</section>
+		<!-- End: b-products slider -->
+		<!-- Start : block with tab -->
+		<div class="b-main-tab b-container">
+				<h2 class="b-main-tab__title">Знание - сила</h2>
+				<ul class="b-main-tab__menu">
+						<li class="b-main-tab__item">
+								<a href="javascript:void(0)" class="b-main-tab__link">
+										<span class="b-main-tab__img-container">
+												<img class="b-main-tab__img" src="pictures/icons/TC heart.svg">
+										</span>
+										<span class="b-main-tab__txt">Рекомендуем</span>
+								</a>
+						</li>
+						<li class="b-main-tab__item">
+								<a href="javascript:void(0)" class="b-main-tab__link">
+										<span class="b-main-tab__img-container">
+											<img class="b-main-tab__img" src="pictures/icons/TC heart.svg">
+										</span>
+										<span class="b-main-tab__txt">Как выбрать</span>
+								</a>
+						</li>
+						<li class="b-main-tab__item b-main-tab__item--shortsize ">
+								<a href="javascript:void(0)" class="b-main-tab__link">
+										<span class="b-main-tab__img-container">
+												<img class="b-main-tab__img" src="pictures/icons/TC heart.svg">
+										</span>
+										<span class="b-main-tab__txt">Видео</span>
+								</a>
+						</li>
+						<li class="b-main-tab__item b-main-tab__item--mod ">
+								<a href="javascript:void(0)" class="b-main-tab__link">
+										<span class="b-main-tab__img-container">
+												<img class="b-main-tab__img" src="pictures/icons/TC heart.svg">
+										</span>
+										<span class="b-main-tab__txt">Обзоры новинок</span>
+								</a>
+						</li>
+						<li class="b-main-tab__item b-main-tab__item--mod ">
+								<a href="javascript:void(0)" class="b-main-tab__link">
+										<span class="b-main-tab__img-container">
+												<img class="b-main-tab__img" src="pictures/icons/TC heart.svg">
+										</span>
+										<span class="b-main-tab__txt">Списки покупок</span>
+								</a>
+						</li>
+				</ul>
+				<a href="javascript:void(0)" class="b-main-tab__button">Перейти в раздел</a>
+				<!-- Start: tab`s content -->
+				<div class="b-tab-content">
+					<div class="b-tab-content__bg-imgbox"> <!-- пока хз -->
+							<img class="b-tab-content__bg-img" src="main-tab-1.jpg" >
+					</div>
+					<!-- start : first tab -->
+					<div class="b-tab-content__item">
+						<div class="b-tab-content__top">
+							<div class="tab-paragraph">
+								<h2 class="tab-paragraph__title">Как выбрать фитнес-браслет</h2>
+								<p class="tab-paragraph__text">При покупке умного браслета учитывайте то, что они бывают
+								с дисплеем и без. А также обращайте внимание на размер, <br>т.к. уменьшить браслет невозможно. Для нормальной работы гаджета не лишним будет наличие смартфона, и чем новее операционная система, тем лучше. Есть множество примеров, когда браслет является совершенно бесполезным<br>без соответствующего приложения на телефоне.</p>
+								<a href="javascript:void(0)" class="tab-paragraph__link">
+										<span class="tab-paragraph__icon-container">
+										<img src="pictures/icons/question.svg" alt="picture" class="tab-paragraph__icon"></span>Как выбрать
+								</a>
+								<a class="tab-paragraph__read-more" href="javascript:void(0)">Читать дальше</a>
+							</div>
 
-                    <div class="tab-product">
-                        <div class="tab-product__wrapper tab-product__wrapper--marg">
-                            <span class="tab-product__bestseller">Хит</span>
-                            <a href="javascript:void(0)" class="tab-product__action">Акция  &#8250;
-                                <!-- <div class="tab-product__arrow-box">
-                                    <img class="tab-product__arrow"  src="pictures/arrows/arrow-right-white.svg">
-                                </div> -->
-                            </a>
-                            <div class="tab-product__img-container">
-                                <img class="tab-product__img" src="pictures/main-tab/bracelet.png" alt="picture">
-                            </div>
-                            <span class="tab-product__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
-                            <span class="tab-product__price" >10 290
-                                <span class="tab-product__price--mod">р.</span>
-                                <span class="tab-product__oldprice" >Было <br>11 990 Р.</span>
-                            </span>
-                            <span class="tab-product__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
-                            <div class="tab-product__stars">Акция</div>
-                        </div>
-                        <div class="tab-product__wrapper">
-                            <span class="tab-product__bestseller">Хит</span>
-                            <a href="javascript:void(0)" class="tab-product__action">Акция  &#8250
-                            </a>
-                            <div class="tab-product__img-container">
-                                <img class="tab-product__img" src="pictures/main-tab/bracelet.png" alt="picture">
-                            </div>
-                            <span class="tab-product__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
-                            <span class="tab-product__price" >10 290
-                                <span class="tab-product__price--mod">р.</span>
-                                <span class="tab-product__oldprice" >Было <br>11 990 Р.</span>
-                            </span>
-                            <span class="tab-product__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="b-tab-content__bottom">
-                    <div class="tab-paragraph-below">
-                        <h2 class="tab-paragraph-below__title">Какой ноутбук выбрать для работы</h2>
-                        <p class="tab-paragraph-below__text">Отправляясь в магазин за новым ноутбуком, можно растеряться, глядя на множество представленных моделей. Стоимость не является определяющим фактором — подобрать подходящее устройство удается с учетом любого бюджета. Потому необходимо определиться со своими предпочтениями. Не имея достаточного опыта, сложно понять, на какие качества и функции стоит обратить внимание в первую очередь. Давайте разберемся, что нужно учесть, чтобы покупка оказалась максимально полезной и эффективной.</p>
-                        <a href="javascript:void(0)" class="tab-paragraph-below__link">
-                            <span class="tab-paragraph-below__icon-container">
-                            <img src="pictures/icons/question.svg" alt="picture" class="tab-paragraph-below__icon"></span>Как выбрать
-                        </a>
-                        <a class="tab-paragraph-below__read-more" href="javascript:void(0)">Читать дальше
-                        </a>
-                        <a class="tab-paragraph-below__all-products" href="javascript:void(0)">Все товары
-                        </a>
-                    </div>
-                    <div class="tab-product-below">
-                        <div class="tab-product-below__wrapper tab-product__wrapper--marg">
-                            <span class="tab-product-below__bestseller">Хит</span>
-                            <a href="javascript:void(0)" class="tab-product-below__action tab-product-below__action--mod">Акция  &#8250;
-                                <!-- <div class="tab-product__arrow-box">
-                                    <img class="tab-product__arrow"  src="pictures/arrows/arrow-right-white.svg">
-                                </div> -->
-                            </a>
-                            <div class="tab-product-below__img-container">
-                                <img class="tab-product-below__img" src="pictures/main-tab/bracelet.png" alt="picture">
-                            </div>
-                            <span class="tab-product-below__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
-                            <span class="tab-product-below__price" >10 290
-                                <span class="tab-product-below__price--mod">р.</span>
-                                <span class="tab-product-below__oldprice" >Было <br>11 990 Р.</span>
-                            </span>
-                            <span class="tab-product-below__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
-                            <div class="tab-product-below__stars">Акция</div>
-                        </div>
-                        <div class="tab-product-below__wrapper tab-product-below__wrapper--mod">
-                            <span class="tab-product-below__bestseller tab-product-below__bestseller--mod">Хит</span>
-                            <a href="javascript:void(0)" class="tab-product-below__action">Акция  &#8250
-                            </a>
-                            <div class="tab-product-below__img-container">
-                                <img class="tab-product-below__img" src="pictures/main-tab/bracelet.png" alt="picture">
-                            </div>
-                            <span class="tab-product-below__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
-                            <span class="tab-product-below__price" >10 290
-                                <span class="tab-product-below__price--mod">р.</span>
-                                <span class="tab-product-below__oldprice" >Было <br>11 990 Р.</span>
-                            </span>
-                            <span class="tab-product-below__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end : first tab -->
-            <!-- start : second tab -->
-            <div class="b-tab-content__item">
-                <div class="b-tab-content__top">
-                    <div class="tab-paragraph">
-                        <h2 class="tab-paragraph__title">Как выбрать ФИТНЕС</h2>
-                        <p class="tab-paragraph__text">При покупке умного браслета учитывайте то, что они бывают
-                        с дисплеем и без. А также обращайте внимание на размер, <br>т.к. уменьшить браслет невозможно. Для нормальной работы гаджета не лишним будет наличие смартфона, и чем новее операционная система, тем лучше. Есть множество примеров, когда браслет является совершенно бесполезным<br>без соответствующего приложения на телефоне.</p>
-                        <a href="javascript:void(0)" class="tab-paragraph__link">
-                            <span class="tab-paragraph__icon-container">
-                            <img src="pictures/icons/question.svg" alt="picture" class="tab-paragraph__icon"></span>Как выбрать
-                        </a>
-                        <a class="tab-paragraph__read-more" href="javascript:void(0)">Читать дальше
-                        </a>
-                    </div>
+							<div class="tab-product">
+								<div class="tab-product__wrapper tab-product__wrapper--marg">
+									<span class="tab-product__bestseller">Хит</span>
+									<a href="javascript:void(0)" class="tab-product__action">Акция  &#8250;
+									</a>
+									<div class="tab-product__img-container">
+										<img class="tab-product__img" src="pictures/main-tab/bracelet.png" alt="picture">
+									</div>
+									<span class="tab-product__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
+									<span class="tab-product__price" >10 290
+										<span class="tab-product__price--mod">р.</span>
+										<span class="tab-product__oldprice" >Было <br>11 990 Р.</span>
+									</span>
+									<span class="tab-product__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
+									<div class="tab-product__stars">Акция</div>
+								</div>
+								<div class="tab-product__wrapper">
+									<span class="tab-product__bestseller">Хит</span>
+									<a href="javascript:void(0)" class="tab-product__action">Акция  &#8250
+									</a>
+									<div class="tab-product__img-container">
+										<img class="tab-product__img" src="pictures/main-tab/bracelet.png" alt="picture">
+									</div>
+									<span class="tab-product__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
+									<span class="tab-product__price" >10 290
+										<span class="tab-product__price--mod">р.</span>
+										<span class="tab-product__oldprice" >Было <br>11 990 Р.</span>
+									</span>
+									<span class="tab-product__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
+								</div>
+							</div>
+						</div>
+						<div class="b-tab-content__bottom">
+							<div class="tab-paragraph-below">
+									<h2 class="tab-paragraph-below__title">Какой ноутбук выбрать для мамы</h2>
+									<p class="tab-paragraph-below__text">Отправляясь в магазин за новым ноутбуком, можно растеряться, глядя на множество представленных моделей. Стоимость не является определяющим фактором — подобрать подходящее устройство удается с учетом любого бюджета. Потому необходимо определиться со своими предпочтениями. Не имея достаточного опыта, сложно понять, на какие качества и функции стоит обратить внимание в первую очередь. Давайте разберемся, что нужно учесть, чтобы покупка оказалась максимально полезной и эффективной.</p>
+									<a href="javascript:void(0)" class="tab-paragraph-below__link">
+											<span class="tab-paragraph-below__icon-container">
+											<img src="pictures/icons/question.svg" alt="picture" class="tab-paragraph-below__icon"></span>Как выбрать
+									</a>
+									<a class="tab-paragraph-below__read-more" href="javascript:void(0)">Читать дальше
+									</a>
+									<a class="tab-paragraph-below__all-products" href="javascript:void(0)">Все товары
+									</a>
+							</div>
+							<div class="tab-product-below">
+								<div class="tab-product-below__wrapper tab-product__wrapper--marg">
+									<span class="tab-product-below__bestseller">Хит</span>
+									<a href="javascript:void(0)" class="tab-product-below__action tab-product-below__action--mod">Акция  &#8250;
+									</a>
+									<div class="tab-product-below__img-container">
+										<img class="tab-product-below__img" src="pictures/main-tab/bracelet-white.png" alt="picture">
+									</div>
+									<span class="tab-product-below__txt">БРАСЛЕТ браслет АБВ (ГД04 - 6262ЕЖЗ - EM) черно-голубой</span>
+									<span class="tab-product-below__price" >10 290
+										<span class="tab-product-below__price--mod">р.</span>
+										<span class="tab-product-below__oldprice" >Было <br>11 990 Р.</span>
+									</span>
+									<span class="tab-product-below__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
+									<div class="tab-product-below__stars">Акция</div>
+								</div>
+								<div class="tab-product-below__wrapper tab-product-below__wrapper--mod">
+									<span class="tab-product-below__bestseller tab-product-below__bestseller--mod">Хит</span>
+									<a href="javascript:void(0)" class="tab-product-below__action">Акция  &#8250
+									</a>
+									<div class="tab-product-below__img-container">
+										<img class="tab-product-below__img" src="pictures/main-tab/bracelet.png" alt="picture">
+									</div>
+									<span class="tab-product-below__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
+									<span class="tab-product-below__price" >10 290
+										<span class="tab-product-below__price--mod">р.</span>
+										<span class="tab-product-below__oldprice" >Было <br>11 990 Р.</span>
+									</span>
+									<span class="tab-product-below__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end : first tab -->
+					<!-- start : second tab -->
+					<div class="b-tab-content__item">
+						<div class="b-tab-content__top">
+							<div class="tab-paragraph">
+								<h2 class="tab-paragraph__title">Функционал фитнес-кота</h2>
+								<p class="tab-paragraph__text">При покупке умного кота учитывайте то, что они бывают
+								с дисплеем и без. А также обращайте внимание на размер, <br>т.к. уменьшить кота невозможно. Для нормальной работы гаджета не лишним будет наличие смартфона, и чем новее операционная система, тем лучше. Есть множество примеров, когда кот является совершенно бесполезным<br>без соответствующего приложения на телефоне.</p>
+								<a href="javascript:void(0)" class="tab-paragraph__link">
+										<span class="tab-paragraph__icon-container">
+										<img src="pictures/icons/question.svg" alt="picture" class="tab-paragraph__icon"></span>Как выбрать
+								</a>
+								<a class="tab-paragraph__read-more" href="javascript:void(0)">Читать дальше</a>
+							</div>
 
-                    <div class="tab-product">
-                        <div class="tab-product__wrapper tab-product__wrapper--marg">
-                            <span class="tab-product-__bestseller">Хит</span>
-                            <a href="javascript:void(0)" class="tab-product__action">Акция  &#8250;
+							<div class="tab-product">
+								<div class="tab-product__wrapper tab-product__wrapper--marg">
+									<span class="tab-product__bestseller">Хит</span>
+									<a href="javascript:void(0)" class="tab-product__action">Акция  &#8250;
+									</a>
+									<div class="tab-product__img-container">
+										<img class="tab-product__img" src="pictures/main-tab/braslet-fourth.png" alt="picture">
+									</div>
+									<span class="tab-product__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
+									<span class="tab-product__price" >10 290
+										<span class="tab-product__price--mod">р.</span>
+										<span class="tab-product__oldprice" >Было <br>11 990 Р.</span>
+									</span>
+									<span class="tab-product__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
+									<div class="tab-product__stars">Акция</div>
+								</div>
+								<div class="tab-product__wrapper">
+									<span class="tab-product__bestseller">Хит</span>
+									<a href="javascript:void(0)" class="tab-product__action">Акция  &#8250
+									</a>
+									<div class="tab-product__img-container">
+										<img class="tab-product__img" src="pictures/main-tab/браслетик5.jpg" alt="picture">
+									</div>
+									<span class="tab-product__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
+									<span class="tab-product__price" >10 290
+										<span class="tab-product__price--mod">р.</span>
+										<span class="tab-product__oldprice" >Было <br>11 990 Р.</span>
+									</span>
+									<span class="tab-product__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
+								</div>
+							</div>
+						</div>
+						<div class="b-tab-content__bottom">
+							<div class="tab-paragraph-below">
+									<h2 class="tab-paragraph-below__title">Какой ноутбук выбрать для работы</h2>
+									<p class="tab-paragraph-below__text">Отправляясь в магазин за новым ноутбуком, можно растеряться, глядя на множество представленных моделей. Стоимость не является определяющим фактором — подобрать подходящее устройство удается с учетом любого бюджета. Потому необходимо определиться со своими предпочтениями. Не имея достаточного опыта, сложно понять, на какие качества и функции стоит обратить внимание в первую очередь. Давайте разберемся, что нужно учесть, чтобы покупка оказалась максимально полезной и эффективной.</p>
+									<a href="javascript:void(0)" class="tab-paragraph-below__link">
+											<span class="tab-paragraph-below__icon-container">
+											<img src="pictures/icons/question.svg" alt="picture" class="tab-paragraph-below__icon"></span>Как выбрать
+									</a>
+									<a class="tab-paragraph-below__read-more" href="javascript:void(0)">Читать дальше
+									</a>
+									<a class="tab-paragraph-below__all-products" href="javascript:void(0)">Все товары
+									</a>
+							</div>
+							<div class="tab-product-below">
+								<div class="tab-product-below__wrapper tab-product__wrapper--marg">
+									<span class="tab-product-below__bestseller">Хит</span>
+									<a href="javascript:void(0)" class="tab-product-below__action tab-product-below__action--mod">Акция  &#8250;
+									</a>
+									<div class="tab-product-below__img-container">
+										<img class="tab-product-below__img" src="pictures/main-tab/bracelet.png" alt="picture">
+									</div>
+									<span class="tab-product-below__txt">БРАСЛЕТ браслет АБВ (ГД04 - 6262ЕЖЗ - EM) черно-голубой</span>
+									<span class="tab-product-below__price" >10 290
+										<span class="tab-product-below__price--mod">р.</span>
+										<span class="tab-product-below__oldprice" >Было <br>11 990 Р.</span>
+									</span>
+									<span class="tab-product-below__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
+									<div class="tab-product-below__stars">Акция</div>
+								</div>
+								<div class="tab-product-below__wrapper tab-product-below__wrapper--mod">
+									<span class="tab-product-below__bestseller tab-product-below__bestseller--mod">Хит</span>
+									<a href="javascript:void(0)" class="tab-product-below__action">Акция  &#8250
+									</a>
+									<div class="tab-product-below__img-container">
+										<img class="tab-product-below__img" src="pictures/main-tab/bracelet.png" alt="picture">
+									</div>
+									<span class="tab-product-below__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
+									<span class="tab-product-below__price" >10 290
+										<span class="tab-product-below__price--mod">р.</span>
+										<span class="tab-product-below__oldprice" >Было <br>11 990 Р.</span>
+									</span>
+									<span class="tab-product-below__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end : second tab -->
+					<!-- start : third tab -->
+					<div class="b-tab-content__item">
+						<div class="b-tab-content__top">
+							<div class="tab-paragraph">
+								<h2 class="tab-paragraph__title">Зачем нужен фитнес-сын</h2>
+								<p class="tab-paragraph__text">При покупке умного сына учитывайте то, что они бывают
+								с дисплеем и без. А также обращайте внимание на размер, <br>т.к. уменьшить сына невозможно. Для нормальной работы гаджета не лишним будет наличие смартфона, и чем новее операционная система, тем лучше. Есть множество примеров, когда сын является совершенно бесполезным<br>без соответствующего приложения на телефоне.</p>
+								<a href="javascript:void(0)" class="tab-paragraph__link">
+										<span class="tab-paragraph__icon-container">
+										<img src="pictures/icons/question.svg" alt="picture" class="tab-paragraph__icon"></span>Как выбрать
+								</a>
+								<a class="tab-paragraph__read-more" href="javascript:void(0)">Читать дальше</a>
+							</div>
 
-                            </a>
-                            <div class="tab-product__img-container">
-                                <img class="tab-product__img" src="pictures/main-tab/bracelet-white.png" alt="picture">
-                            </div>
-                            <span class="tab-product__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
-                            <span class="tab-product__price" >10 290
-                                <span class="tab-product__price--mod">р.</span>
-                                <span class="tab-product__oldprice" >Было <br>11 990 Р.</span>
-                            </span>
-                            <span class="tab-product__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
-                            <div class="tab-product__stars">Акция</div>
-                        </div>
-                        <div class="tab-product__wrapper">
-                            <span class="tab-product__bestseller">Хит</span>
-                            <a href="javascript:void(0)" class="tab-product__action">Акция  &#8250
-                            </a>
-                            <div class="tab-product__img-container">
-                                <img class="tab-product__img" src="pictures/main-tab/bracelet.png" alt="picture">
-                            </div>
-                            <span class="tab-product__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
-                            <span class="tab-product__price" >10 290
-                                <span class="tab-product__price--mod">р.</span>
-                                <span class="tab-product__oldprice" >Было <br>11 990 Р.</span>
-                            </span>
-                            <span class="tab-product__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
-                            <div class="tab-product__stars">
+							<div class="tab-product">
+								<div class="tab-product__wrapper tab-product__wrapper--marg">
+									<span class="tab-product__bestseller">Хит</span>
+									<a href="javascript:void(0)" class="tab-product__action">Акция  &#8250;
+									</a>
+									<div class="tab-product__img-container">
+										<img class="tab-product__img" src="pictures/main-tab/braslet-third.png" alt="picture">
+									</div>
+									<span class="tab-product__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
+									<span class="tab-product__price" >10 290
+										<span class="tab-product__price--mod">р.</span>
+										<span class="tab-product__oldprice" >Было <br>11 990 Р.</span>
+									</span>
+									<span class="tab-product__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
+									<div class="tab-product__stars">Акция</div>
+								</div>
+								<div class="tab-product__wrapper">
+									<span class="tab-product__bestseller">Хит</span>
+									<a href="javascript:void(0)" class="tab-product__action">Акция  &#8250
+									</a>
+									<div class="tab-product__img-container">
+										<img class="tab-product__img" src="pictures/main-tab/braslet-fifth.png" alt="picture">
+									</div>
+									<span class="tab-product__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
+									<span class="tab-product__price" >10 290
+										<span class="tab-product__price--mod">р.</span>
+										<span class="tab-product__oldprice" >Было <br>11 990 Р.</span>
+									</span>
+									<span class="tab-product__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
+								</div>
+							</div>
+						</div>
+						<div class="b-tab-content__bottom">
+							<div class="tab-paragraph-below">
+									<h2 class="tab-paragraph-below__title">Какого UFC выбрать для работы</h2>
+									<p class="tab-paragraph-below__text">Отправляясь в магазин за новым бойцом, можно растеряться, глядя на множество представленных моделей. Стоимость не является определяющим фактором — подобрать подходящего мужчину удается с учетом любого бюджета. Потому необходимо определиться со своими предпочтениями. Не имея достаточного опыта, сложно понять, на какие качества и функции стоит обратить внимание в первую очередь. Давайте разберемся, что нужно учесть, чтобы покупка оказалась максимально полезной и эффективной.</p>
+									<a href="javascript:void(0)" class="tab-paragraph-below__link">
+											<span class="tab-paragraph-below__icon-container">
+											<img src="pictures/icons/question.svg" alt="picture" class="tab-paragraph-below__icon"></span>Как выбрать
+									</a>
+									<a class="tab-paragraph-below__read-more" href="javascript:void(0)">Читать дальше
+									</a>
+									<a class="tab-paragraph-below__all-products" href="javascript:void(0)">Все товары
+									</a>
+							</div>
+							<div class="tab-product-below">
+								<div class="tab-product-below__wrapper tab-product__wrapper--marg">
+									<span class="tab-product-below__bestseller">Хит</span>
+									<a href="javascript:void(0)" class="tab-product-below__action tab-product-below__action--mod">Акция  &#8250;
+									</a>
+									<div class="tab-product-below__img-container">
+										<img class="tab-product-below__img" src="pictures/main-tab/kebab.jpg" alt="picture">
+									</div>
+									<span class="tab-product-below__txt">БРАСЛЕТ браслет АБВ (ГД04 - 6262ЕЖЗ - EM) черно-голубой</span>
+									<span class="tab-product-below__price" >10 290
+										<span class="tab-product-below__price--mod">р.</span>
+										<span class="tab-product-below__oldprice" >Было <br>11 990 Р.</span>
+									</span>
+									<span class="tab-product-below__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
+									<div class="tab-product-below__stars">Акция</div>
+								</div>
+								<div class="tab-product-below__wrapper tab-product-below__wrapper--mod">
+									<span class="tab-product-below__bestseller tab-product-below__bestseller--mod">Хит</span>
+									<a href="javascript:void(0)" class="tab-product-below__action">Акция  &#8250
+									</a>
+									<div class="tab-product-below__img-container">
+										<img class="tab-product-below__img" src="pictures/main-tab/conor.jpg" alt="picture">
+									</div>
+									<span class="tab-product-below__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
+									<span class="tab-product-below__price" >10 290
+										<span class="tab-product-below__price--mod">р.</span>
+										<span class="tab-product-below__oldprice" >Было <br>11 990 Р.</span>
+									</span>
+									<span class="tab-product-below__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
+								</div>
+							</div>
+						</div>
+					</div>
+						<!-- end : third tab -->
+						<!-- start : fourth tab -->
+					<div class="b-tab-content__item">
+						<div class="b-tab-content__top">
+							<div class="tab-paragraph">
+								<h2 class="tab-paragraph__title">Как выбрать собаку</h2>
+								<p class="tab-paragraph__text">При покупке умного браслета учитывайте то, что они бывают
+								с дисплеем и без. А также обращайте внимание на размер, <br>т.к. уменьшить браслет невозможно. Для нормальной работы гаджета не лишним будет наличие смартфона, и чем новее операционная система, тем лучше. Есть множество примеров, когда браслет является совершенно бесполезным<br>без соответствующего приложения на телефоне.</p>
+								<a href="javascript:void(0)" class="tab-paragraph__link">
+										<span class="tab-paragraph__icon-container">
+										<img src="pictures/icons/question.svg" alt="picture" class="tab-paragraph__icon"></span>Как выбрать
+								</a>
+								<a class="tab-paragraph__read-more" href="javascript:void(0)">Читать дальше</a>
+							</div>
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="b-tab-content__bottom">
-                    <div class="tab-paragraph">
-                        <h2 class="tab-paragraph__title">Как выбрать ФИТНЕС</h2>
-                        <p class="tab-paragraph__text">При покупке умного браслета учитывайте то, что они бывают
-                        с дисплеем и без. А также обращайте внимание на размер, <br>т.к. уменьшить браслет невозможно. Для нормальной работы гаджета не лишним будет наличие смартфона, и чем новее операционная система, тем лучше. Есть множество примеров, когда браслет является совершенно бесполезным<br>без соответствующего приложения на телефоне.</p>
-                        <a href="javascript:void(0)" class="tab-paragraph__link">
-                            <span class="tab-paragraph__icon-container">
-                            <img src="pictures/icons/question.svg" alt="picture" class="tab-paragraph__icon"></span>Как выбрать
-                        </a>
-                        <a class="tab-paragraph__read-more" href="javascript:void(0)">Читать дальше
-                        </a>
-                    </div>
+							<div class="tab-product">
+								<div class="tab-product__wrapper tab-product__wrapper--marg">
+									<span class="tab-product__bestseller">Хит</span>
+									<a href="javascript:void(0)" class="tab-product__action">Акция  &#8250;
+									</a>
+									<div class="tab-product__img-container">
+										<img class="tab-product__img" src="pictures/main-tab/braslet-fourth.png" alt="picture">
+									</div>
+									<span class="tab-product__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
+									<span class="tab-product__price" >10 290
+										<span class="tab-product__price--mod">р.</span>
+										<span class="tab-product__oldprice" >Было <br>11 990 Р.</span>
+									</span>
+									<span class="tab-product__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
+									<div class="tab-product__stars">Акция</div>
+								</div>
+								<div class="tab-product__wrapper">
+									<span class="tab-product__bestseller">Хит</span>
+									<a href="javascript:void(0)" class="tab-product__action">Акция  &#8250
+									</a>
+									<div class="tab-product__img-container">
+										<img class="tab-product__img" src="pictures/main-tab/braslet-fourth.png" alt="picture">
+									</div>
+									<span class="tab-product__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
+									<span class="tab-product__price" >10 290
+										<span class="tab-product__price--mod">р.</span>
+										<span class="tab-product__oldprice" >Было <br>11 990 Р.</span>
+									</span>
+									<span class="tab-product__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
+								</div>
+							</div>
+						</div>
+						<div class="b-tab-content__bottom">
+							<div class="tab-paragraph-below">
+									<h2 class="tab-paragraph-below__title">Какой ноутбук выбрать для работы</h2>
+									<p class="tab-paragraph-below__text">Отправляясь в магазин за новым ноутбуком, можно растеряться, глядя на множество представленных моделей. Стоимость не является определяющим фактором — подобрать подходящее устройство удается с учетом любого бюджета. Потому необходимо определиться со своими предпочтениями. Не имея достаточного опыта, сложно понять, на какие качества и функции стоит обратить внимание в первую очередь. Давайте разберемся, что нужно учесть, чтобы покупка оказалась максимально полезной и эффективной.</p>
+									<a href="javascript:void(0)" class="tab-paragraph-below__link">
+											<span class="tab-paragraph-below__icon-container">
+											<img src="pictures/icons/question.svg" alt="picture" class="tab-paragraph-below__icon"></span>Как выбрать
+									</a>
+									<a class="tab-paragraph-below__read-more" href="javascript:void(0)">Читать дальше
+									</a>
+									<a class="tab-paragraph-below__all-products" href="javascript:void(0)">Все товары
+									</a>
+							</div>
+							<div class="tab-product-below">
+								<div class="tab-product-below__wrapper tab-product__wrapper--marg">
+									<span class="tab-product-below__bestseller">Хит</span>
+									<a href="javascript:void(0)" class="tab-product-below__action tab-product-below__action--mod">Акция  &#8250;
+									</a>
+									<div class="tab-product-below__img-container">
+										<img class="tab-product-below__img" src="pictures/main-tab/bracelet.png" alt="picture">
+									</div>
+									<span class="tab-product-below__txt">БРАСЛЕТ браслет АБВ (ГД04 - 6262ЕЖЗ - EM) черно-голубой</span>
+									<span class="tab-product-below__price" >10 290
+										<span class="tab-product-below__price--mod">р.</span>
+										<span class="tab-product-below__oldprice" >Было <br>11 990 Р.</span>
+									</span>
+									<span class="tab-product-below__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
+									<div class="tab-product-below__stars">Акция</div>
+								</div>
+								<div class="tab-product-below__wrapper tab-product-below__wrapper--mod">
+									<span class="tab-product-below__bestseller tab-product-below__bestseller--mod">Хит</span>
+									<a href="javascript:void(0)" class="tab-product-below__action">Акция  &#8250
+									</a>
+									<div class="tab-product-below__img-container">
+										<img class="tab-product-below__img" src="pictures/main-tab/bracelet.png" alt="picture">
+									</div>
+									<span class="tab-product-below__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
+									<span class="tab-product-below__price" >10 290
+										<span class="tab-product-below__price--mod">р.</span>
+										<span class="tab-product-below__oldprice" >Было <br>11 990 Р.</span>
+									</span>
+									<span class="tab-product-below__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
+								</div>
+							</div>
+						</div>
+					</div>
+						<!-- end : fourth tab -->
+						<!-- start : fifth tab -->
+					<div class="b-tab-content__item">
+						<div class="b-tab-content__top">
+							<div class="tab-paragraph">
+								<h2 class="tab-paragraph__title">Как разговорить фитнес-браслет</h2>
+								<p class="tab-paragraph__text">При покупке умного браслета учитывайте то, что они бывают
+								с дисплеем и без. А также обращайте внимание на размер, <br>т.к. уменьшить браслет невозможно. Для нормальной работы гаджета не лишним будет наличие смартфона, и чем новее операционная система, тем лучше. Есть множество примеров, когда браслет является совершенно бесполезным<br>без соответствующего приложения на телефоне.</p>
+								<a href="javascript:void(0)" class="tab-paragraph__link">
+										<span class="tab-paragraph__icon-container">
+										<img src="pictures/icons/question.svg" alt="picture" class="tab-paragraph__icon"></span>Как выбрать
+								</a>
+								<a class="tab-paragraph__read-more" href="javascript:void(0)">Читать дальше</a>
+							</div>
 
-                    <div class="tab-product">
-                        <div class="tab-product__wrapper tab-product__wrapper--marg">
-                            <span class="tab-product__bestseller">Хит</span>
-                            <a href="javascript:void(0)" class="tab-product__action">Акция  &#8250;
+							<div class="tab-product">
+								<div class="tab-product__wrapper tab-product__wrapper--marg">
+									<span class="tab-product__bestseller">Хит</span>
+									<a href="javascript:void(0)" class="tab-product__action">Акция  &#8250;
+									</a>
+									<div class="tab-product__img-container">
+										<img class="tab-product__img" src="pictures/main-tab/braslet-fifth.png" alt="picture">
+									</div>
+									<span class="tab-product__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
+									<span class="tab-product__price" >10 290
+										<span class="tab-product__price--mod">р.</span>
+										<span class="tab-product__oldprice" >Было <br>11 990 Р.</span>
+									</span>
+									<span class="tab-product__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
+									<div class="tab-product__stars">Акция</div>
+								</div>
+								<div class="tab-product__wrapper">
+									<span class="tab-product__bestseller">Хит</span>
+									<a href="javascript:void(0)" class="tab-product__action">Акция  &#8250
+									</a>
+									<div class="tab-product__img-container">
+										<img class="tab-product__img" src="pictures/main-tab/bracelet-white.png" alt="picture">
+									</div>
+									<span class="tab-product__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
+									<span class="tab-product__price" >10 290
+										<span class="tab-product__price--mod">р.</span>
+										<span class="tab-product__oldprice" >Было <br>11 990 Р.</span>
+									</span>
+									<span class="tab-product__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
+								</div>
+							</div>
+						</div>
+						<div class="b-tab-content__bottom">
+							<div class="tab-paragraph-below">
+									<h2 class="tab-paragraph-below__title">Какой ноутбук выбрать для работы</h2>
+									<p class="tab-paragraph-below__text">Отправляясь в магазин за новым ноутбуком, можно растеряться, глядя на множество представленных моделей. Стоимость не является определяющим фактором — подобрать подходящее устройство удается с учетом любого бюджета. Потому необходимо определиться со своими предпочтениями. Не имея достаточного опыта, сложно понять, на какие качества и функции стоит обратить внимание в первую очередь. Давайте разберемся, что нужно учесть, чтобы покупка оказалась максимально полезной и эффективной.</p>
+									<a href="javascript:void(0)" class="tab-paragraph-below__link">
+											<span class="tab-paragraph-below__icon-container">
+											<img src="pictures/icons/question.svg" alt="picture" class="tab-paragraph-below__icon"></span>Как выбрать
+									</a>
+									<a class="tab-paragraph-below__read-more" href="javascript:void(0)">Читать дальше
+									</a>
+									<a class="tab-paragraph-below__all-products" href="javascript:void(0)">Все товары
+									</a>
+							</div>
+							<div class="tab-product-below">
+								<div class="tab-product-below__wrapper tab-product__wrapper--marg">
+									<span class="tab-product-below__bestseller">Хит</span>
+									<a href="javascript:void(0)" class="tab-product-below__action tab-product-below__action--mod">Акция  &#8250;
+									</a>
+									<div class="tab-product-below__img-container">
+										<img class="tab-product-below__img" src="pictures/main-tab/bracelet.png" alt="picture">
+									</div>
+									<span class="tab-product-below__txt">БРАСЛЕТ браслет АБВ (ГД04 - 6262ЕЖЗ - EM) черно-голубой</span>
+									<span class="tab-product-below__price" >10 290
+										<span class="tab-product-below__price--mod">р.</span>
+										<span class="tab-product-below__oldprice" >Было <br>11 990 Р.</span>
+									</span>
+									<span class="tab-product-below__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
+									<div class="tab-product-below__stars">Акция</div>
+								</div>
+								<div class="tab-product-below__wrapper tab-product-below__wrapper--mod">
+									<span class="tab-product-below__bestseller tab-product-below__bestseller--mod">Хит</span>
+									<a href="javascript:void(0)" class="tab-product-below__action">Акция  &#8250
+									</a>
+									<div class="tab-product-below__img-container">
+										<img class="tab-product-below__img" src="pictures/main-tab/bracelet.png" alt="picture">
+									</div>
+									<span class="tab-product-below__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
+									<span class="tab-product-below__price" >10 290
+										<span class="tab-product-below__price--mod">р.</span>
+										<span class="tab-product-below__oldprice" >Было <br>11 990 Р.</span>
+									</span>
+									<span class="tab-product-below__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
+								</div>
+							</div>
+						</div>
+					</div>
+						<!-- end : fifth tab -->
+						<!-- start : sixth tab -->
+					<div class="b-tab-content__item">
+						<div class="b-tab-content__top">
+							<div class="tab-paragraph">
+								<h2 class="tab-paragraph__title">Как выбрать фитнес-браслет</h2>
+								<p class="tab-paragraph__text">При покупке умного браслета учитывайте то, что они бывают
+								с дисплеем и без. А также обращайте внимание на размер, <br>т.к. уменьшить браслет невозможно. Для нормальной работы гаджета не лишним будет наличие смартфона, и чем новее операционная система, тем лучше. Есть множество примеров, когда браслет является совершенно бесполезным<br>без соответствующего приложения на телефоне.</p>
+								<a href="javascript:void(0)" class="tab-paragraph__link">
+										<span class="tab-paragraph__icon-container">
+										<img src="pictures/icons/question.svg" alt="picture" class="tab-paragraph__icon"></span>Как выбрать
+								</a>
+								<a class="tab-paragraph__read-more" href="javascript:void(0)">Читать дальше</a>
+							</div>
 
-                            </a>
-                            <div class="tab-product__img-container">
-                                <img class="tab-product__img" src="pictures/main-tab/bracelet-white.png" alt="picture">
-                            </div>
-                            <span class="tab-product__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
-                            <span class="tab-product__price" >10 290
-                                <span class="tab-product__price--mod">р.</span>
-                                <span class="tab-product__oldprice" >Было <br>11 990 Р.</span>
-                            </span>
-                            <span class="tab-product__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
-                            <div class="tab-product__stars">Акция</div>
-                        </div>
-                        <div class="tab-product__wrapper">
-                            <span class="tab-product__bestseller">Хит</span>
-                            <a href="javascript:void(0)" class="tab-product__action">Акция  &#8250
-                            </a>
-                            <div class="tab-product__img-container">
-                                <img class="tab-product__img" src="pictures/main-tab/bracelet.png" alt="picture">
-                            </div>
-                            <span class="tab-product__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
-                            <span class="tab-product__price" >10 290
-                                <span class="tab-product__price--mod">р.</span>
-                                <span class="tab-product__oldprice" >Было <br>11 990 Р.</span>
-                            </span>
-                            <span class="tab-product__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
-                            <div class="tab-product__stars">
+							<div class="tab-product">
+								<div class="tab-product__wrapper tab-product__wrapper--marg">
+									<span class="tab-product__bestseller">Хит</span>
+									<a href="javascript:void(0)" class="tab-product__action">Акция  &#8250;
+									</a>
+									<div class="tab-product__img-container">
+										<img class="tab-product__img" src="pictures/main-tab/bracelet.png" alt="picture">
+									</div>
+									<span class="tab-product__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
+									<span class="tab-product__price" >10 290
+										<span class="tab-product__price--mod">р.</span>
+										<span class="tab-product__oldprice" >Было <br>11 990 Р.</span>
+									</span>
+									<span class="tab-product__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
+									<div class="tab-product__stars">Акция</div>
+								</div>
+								<div class="tab-product__wrapper">
+									<span class="tab-product__bestseller">Хит</span>
+									<a href="javascript:void(0)" class="tab-product__action">Акция  &#8250
+									</a>
+									<div class="tab-product__img-container">
+										<img class="tab-product__img" src="pictures/main-tab/bracelet.png" alt="picture">
+									</div>
+									<span class="tab-product__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
+									<span class="tab-product__price" >10 290
+										<span class="tab-product__price--mod">р.</span>
+										<span class="tab-product__oldprice" >Было <br>11 990 Р.</span>
+									</span>
+									<span class="tab-product__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
+								</div>
+							</div>
+						</div>
+						<div class="b-tab-content__bottom">
+							<div class="tab-paragraph-below">
+									<h2 class="tab-paragraph-below__title">Какой ноутбук выбрать для работы</h2>
+									<p class="tab-paragraph-below__text">Отправляясь в магазин за новым ноутбуком, можно растеряться, глядя на множество представленных моделей. Стоимость не является определяющим фактором — подобрать подходящее устройство удается с учетом любого бюджета. Потому необходимо определиться со своими предпочтениями. Не имея достаточного опыта, сложно понять, на какие качества и функции стоит обратить внимание в первую очередь. Давайте разберемся, что нужно учесть, чтобы покупка оказалась максимально полезной и эффективной.</p>
+									<a href="javascript:void(0)" class="tab-paragraph-below__link">
+											<span class="tab-paragraph-below__icon-container">
+											<img src="pictures/icons/question.svg" alt="picture" class="tab-paragraph-below__icon"></span>Как выбрать
+									</a>
+									<a class="tab-paragraph-below__read-more" href="javascript:void(0)">Читать дальше
+									</a>
+									<a class="tab-paragraph-below__all-products" href="javascript:void(0)">Все товары
+									</a>
+							</div>
+							<div class="tab-product-below">
+								<div class="tab-product-below__wrapper tab-product__wrapper--marg">
+									<span class="tab-product-below__bestseller">Хит</span>
+									<a href="javascript:void(0)" class="tab-product-below__action tab-product-below__action--mod">Акция  &#8250;
+									</a>
+									<div class="tab-product-below__img-container">
+										<img class="tab-product-below__img" src="pictures/main-tab/bracelet.png" alt="picture">
+									</div>
+									<span class="tab-product-below__txt">БРАСЛЕТ браслет АБВ (ГД04 - 6262ЕЖЗ - EM) черно-голубой</span>
+									<span class="tab-product-below__price" >10 290
+										<span class="tab-product-below__price--mod">р.</span>
+										<span class="tab-product-below__oldprice" >Было <br>11 990 Р.</span>
+									</span>
+									<span class="tab-product-below__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
+									<div class="tab-product-below__stars">Акция</div>
+								</div>
+								<div class="tab-product-below__wrapper tab-product-below__wrapper--mod">
+									<span class="tab-product-below__bestseller tab-product-below__bestseller--mod">Хит</span>
+									<a href="javascript:void(0)" class="tab-product-below__action">Акция  &#8250
+									</a>
+									<div class="tab-product-below__img-container">
+										<img class="tab-product-below__img" src="pictures/main-tab/bracelet.png" alt="picture">
+									</div>
+									<span class="tab-product-below__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
+									<span class="tab-product-below__price" >10 290
+										<span class="tab-product-below__price--mod">р.</span>
+										<span class="tab-product-below__oldprice" >Было <br>11 990 Р.</span>
+									</span>
+									<span class="tab-product-below__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
+								</div>
+							</div>
+						</div>
+					</div>
+						<!-- end : sixth tab -->
+						<!-- start : seventh tab -->
+						<div class="b-tab-content__item">
+								<div class="tab-paragraph">
+										<h2 class="tab-paragraph__title">Как выбрать ФИТНЕС</h2>
+										<p class="tab-paragraph__text">При покупке умного браслета учитывайте то, что они бывают
+										с дисплеем и без. А также обращайте внимание на размер, <br>т.к. уменьшить браслет невозможно. Для нормальной работы гаджета не лишним будет наличие смартфона, и чем новее операционная система, тем лучше. Есть множество примеров, когда браслет является совершенно бесполезным<br>без соответствующего приложения на телефоне.</p>
+										<a href="javascript:void(0)" class="tab-paragraph__link">
+												<span class="tab-paragraph__icon-container">
+												<img src="pictures/icons/question.svg" alt="picture" class="tab-paragraph__icon"></span>Как выбрать
+										</a>
+										<a class="tab-paragraph__read-more" href="javascript:void(0)">Читать дальше
+										</a>
+								</div>
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end : second tab -->
-            <!-- start : third tab -->
-            <div class="b-tab-content__item">
-                <div class="tab-paragraph">
-                    <h2 class="tab-paragraph__title">Как выбрать ФИТНЕС</h2>
-                    <p class="tab-paragraph__text">При покупке умного браслета учитывайте то, что они бывают
-                    с дисплеем и без. А также обращайте внимание на размер, <br>т.к. уменьшить браслет невозможно. Для нормальной работы гаджета не лишним будет наличие смартфона, и чем новее операционная система, тем лучше. Есть множество примеров, когда браслет является совершенно бесполезным<br>без соответствующего приложения на телефоне.</p>
-                    <a href="javascript:void(0)" class="tab-paragraph__link">
-                        <span class="tab-paragraph__icon-container">
-                        <img src="pictures/icons/question.svg" alt="picture" class="tab-paragraph__icon"></span>Как выбрать
-                    </a>
-                    <a class="tab-paragraph__read-more" href="javascript:void(0)">Читать дальше
-                    </a>
-                </div>
+								<div class="tab-product">
+										<div class="tab-product__wrapper tab-product__wrapper--marg">
+												<span class="tab-product__bestseller">Хит</span>
+												<a href="javascript:void(0)" class="tab-product__action">Акция  &#8250;
 
-                <div class="tab-product">
-                    <div class="tab-product__wrapper tab-product__wrapper--marg">
-                        <span class="tab-product__bestseller">Хит</span>
-                        <a href="javascript:void(0)" class="tab-product__action">Акция  &#8250;
+												</a>
+												<div class="tab-product__img-container">
+														<img class="tab-product__img" src="pictures/main-tab/bracelet-white.png" alt="picture">
+												</div>
+												<span class="tab-product__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
+												<span class="tab-product__price" >10 290
+														<span class="tab-product__price--mod">р.</span>
+														<span class="tab-product__oldprice" >Было <br>11 990 Р.</span>
+												</span>
+												<span class="tab-product__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
+												<div class="tab-product__action">Акция</div>
+										</div>
+										<div class="tab-product__wrapper">
+												<span class="tab-product__bestseller">Хит</span>
+												<a href="javascript:void(0)" class="tab-product__action">Акция  &#8250
+												</a>
+												<div class="tab-product__img-container">
+														<img class="tab-product__img" src="pictures/main-tab/bracelet.png" alt="picture">
+												</div>
+												<span class="tab-product__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
+												<span class="tab-product__price" >10 290
+														<span class="tab-product__price--mod">р.</span>
+														<span class="tab-product__oldprice" >Было <br>11 990 Р.</span>
+												</span>
+												<span class="tab-product__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
+												<div class="tab-product__stars">
 
-                        </a>
-                        <div class="tab-product__img-container">
-                            <img class="tab-product__img" src="pictures/main-tab/bracelet-white.png" alt="picture">
-                        </div>
-                        <span class="tab-product__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
-                        <span class="tab-product__price" >10 290
-                            <span class="tab-product__price--mod">р.</span>
-                            <span class="tab-product__oldprice" >Было <br>11 990 Р.</span>
-                        </span>
-                        <span class="tab-product__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
-                        <div class="tab-product__stars">Акция</div>
-                    </div>
-                    <div class="tab-product__wrapper">
-                        <span class="tab-product__bestseller">Хит</span>
-                        <a href="javascript:void(0)" class="tab-product__action">Акция  &#8250
-                        </a>
-                        <div class="tab-product__img-container">
-                            <img class="tab-product__img" src="pictures/main-tab/bracelet.png" alt="picture">
-                        </div>
-                        <span class="tab-product__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
-                        <span class="tab-product__price" >10 290
-                            <span class="tab-product__price--mod">р.</span>
-                            <span class="tab-product__oldprice" >Было <br>11 990 Р.</span>
-                        </span>
-                        <span class="tab-product__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
-                        <div class="tab-product__stars">
+												</div>
+										</div>
+								</div>
+						</div>
+						<!-- end : seventn tab -->
+				<!-- End: tab`s content -->
+				</div>
+		<!-- End : block with tab -->
+		<!-- start: Viewed section -->
+		<section class="b-viewed b-container">
+				<h2 class="b-viewed__title">Вы недавно просматривали</h2>
+				<!-- Start Slider -->
+				<div class="b-slide">
+						<div class="b-slide___js-box">
+								<a class="b-slide__wrapper" href="javascript:void(0)">
+										<span class="b-slide__img-container">
+												<img class="b-slide__img"  src="pictures/viewed/good-1.png" alt="picture">
+										</span>
+										<span class="b-slide__text-container">
+												<span class="b-slide__text">lg 55uf670v</span>
+												<span class="b-slide__price">76 190<span class="b-slide__price--min">р.</span></span>
+										</span>
+								</a>
+						</div>
+						<div class="b-slide___js-box">
+								<a class="b-slide__wrapper b-slide__wrapper--mod" href="javascript:void(0)">
+										<span class="b-slide__img-container b-slide__img-container--mod">
+												<img class="b-slide__img"  src="pictures/viewed/good-22.png" alt="picture">
+										</span>
+										<span class="b-slide__text-container">
+												<span class="b-slide__text b-slide__text--mod">Samsung UE-48-JU6610U Smart UHD LED</span>
+												<span class="b-slide__price b-slide__price--mod">53 190<span class="b-slide__price--min">р.</span></span>
+										</span>
+								</a>
+						</div>
+						<div class="b-slide___js-box">
+								<a class="b-slide__wrapper b-slide__wrapper--box" href="javascript:void(0)">
+										<span class="b-slide__img-container">
+												<img class="b-slide__img b-slide__img--mod" src="pictures/viewed/good-32.png" alt="picture">
+										</span>
+										<span class="b-slide__text-container">
+												<span class="b-slide__text b-slide__text--padd">lg 55uf670v</span>
+												<span class="b-slide__price b-slide__price--color">101 190<span class="b-slide__price--min">р.</span></span>
+										</span>
+								</a>
+						</div>
+						<div class="b-slide___js-box">
+								<a class="b-slide__wrapper b-slide__wrapper--padd" href="javascript:void(0)">
+										<span class="b-slide__img-container">
+												<img class="b-slide__img b-slide__img--size"  src="pictures/viewed/good-2.png" alt="picture">
+										</span>
+										<span class="b-slide__text-container">
+												<span class="b-slide__text">lg 55uf670v</span>
+												<span class="b-slide__price b-slide__price--color">83 190<span class="b-slide__price--min">р.</span></span>
+										</span>
+								</a>
+						</div>
+						<div class="b-slide___js-box">
+								<a class="b-slide__wrapper b-slide__wrapper--padd" href="javascript:void(0)">
+										<span class="b-slide__img-container">
+												<img class="b-slide__img b-slide__img--size"  src="pictures/viewed/good-2.png" alt="picture">
+										</span>
+										<span class="b-slide__text-container">
+												<span class="b-slide__text">lg 55uf670v</span>
+												<span class="b-slide__price b-slide__price--color">83 190<span class="b-slide__price--min">р.</span></span>
+										</span>
+								</a>
+						</div>
+				</div>
+		</section>
+		<!-- End: Slider -->
+		<!--  Start : callback area -->
+		<section class="b-callback b-container">
+			<h2 class="b-callback__title">Оставайтесь на связи</h2>
+			<div class="b-callback__content">
+				<p class="b-callback__title-txt">Узнавайте о выгодных предложениях и получайте персональные рекомендации</p>
+				<form class="b-callback__form" action="#" method="get">
+					<input class="b-callback__email" type="text" name="text" placeholder="Ваша электронная почта">
+					<a class="b-callback__button" href="javascript:void(0)">Подписаться</a>
+				</form>
+			</div>
+		</section>
+		<!-- End : callback area  -->
+		<!-- Start:Footer -->
+		<footer class="b-footer">
+<!-- 			<div class="b-container"> -->
+			<div class="b-footer__wrapper">
+				<!-- Start: footer-list -->
+				<ul class="b-footer__block b-footer__block--about">
+						<li class="b-footer__li">
+								<a class="b-footer__link" href="javascript:void(0)">О Техносиле</a>
+						</li>
+						<li class="b-footer__li">
+								<a class="b-footer__list" href="javascript:void(0)">Новости компании</a>
+						</li>
+						<li class="b-footer__li">
+								<a class="b-footer__list" href="javascript:void(0)">Вакансии</a>
+						</li>
+						<li class="b-footer__li">
+								<a class="b-footer__list" href="javascript:void(0)">Контактная информация</a>
+						</li>
+						<li class="b-footer__li">
+								<a class="b-footer__list" href="javascript:void(0)">Арендодателям</a>
+						</li>
+						<li class="b-footer__li">
+								<a class="b-footer__list" href="javascript:void(0)">Юридическая и финансовая информация</a>
+						</li>
+				</ul>
+				<ul class="b-footer__block b-footer__block--help">
+						<li class="b-footer__li">
+								<a class="b-footer__link" href="javascript:void(0)">Помощь покупателю</a>
+						</li >
+						<li>
+								<a class="b-footer__list" href="javascript:void(0)">Как сделать заказ на сайте</a>
+						</li>
+						<li class="b-footer__li">
+								<a class="b-footer__list" href="javascript:void(0)">Оплата</a>
+						</li>
+						<li class="b-footer__li">
+								<a class="b-footer__list" href="javascript:void(0)">Доставка</a>
+						</li>
+						<li class="b-footer__li">
+								<a class="b-footer__list" href="javascript:void(0)">Адреса магазинов</a>
+						</li>
+						<li class="b-footer__li">
+								<a class="b-footer__list" href="javascript:void(0)">Возврат и обмен</a>
+						</li>
+						<li class="b-footer__li">
+								<a class="b-footer__list" href="javascript:void(0)">Пользовательское соглашение</a>
+						</li>
+						<li class="b-footer__li">
+								<a class="b-footer__list" href="javascript:void(0)">Обратная связь</a>
+						</li>
+				</ul>
+				<ul class="b-footer__block b-footer__block--serveses">
+					<li class="b-footer__li">
+					<a class="b-footer__link" href="javascript:void(0)">Услуги и сервисы</a>
+					</li>
+					<li class="b-footer__li">
+							<a class="b-footer__list" href="javascript:void(0)">Покупка в кредит</a>
+					</li>
+					<li class="b-footer__li">
+							<a class="b-footer__list" href="javascript:void(0)">Бонусная программа</a>
+					</li>
+					<li class="b-footer__li">
+							<a class="b-footer__list" href="javascript:void(0)">Установка и настройка техники</a>
+					</li>
+					<li class="b-footer__li">
+							<a class="b-footer__list" href="javascript:void(0)">Подарочные карты</a>
+					</li>
+					<li class="b-footer__li">
+							<a class="b-footer__list" href="javascript:void(0)">Программа доп. сервиса "Сервис+"</a>
+					</li>
+					<li class="b-footer__li">
+							<a class="b-footer__list" href="javascript:void(0)">Страхование техники</a>
+					</li>
+					<li class="b-footer__li">
+							<a class="b-footer__list" href="javascript:void(0)">Гарантийное обслуживание</a>
+					</li>
+					<li class="b-footer__li">
+							<a class="b-footer__list" href="javascript:void(0)">Программа ТЕХНОТРЕНД</a>
+					</li>
+					<li class="b-footer__li">
+							<a class="b-footer__list" href="javascript:void(0)">Адреса сервисных центров</a>
+					</li>
+				</ul>
+				<!-- End: footer-list -->
+				<div class="b-footer__callback">
+					<p class="b-footer__title">Есть вопросы? Звоните!</p>
+					<a class="b-footer__number" href="tel:+74957752100" title="8 (495) 775 21 00">8 495 775 21 00</a>
+					<p class="b-footer__content">Для звонков по Москве</p>
+					<a class="b-footer__number" href="tel:+78007752100" title="8 (800) 775 21 00">8 800 775 21 00</a>
+					<p class="b-footer__content">Для звонков по России (бесплатно)</p>
+				<div class="b-footer__social">
+						<a class="b-footer__icon" href="javascript:void(0)">
+								<img class="b-footer__icon--img" alt="vk" src="pictures/social/icon-vkontakte.svg">
+						</a>
+						<a class="b-footer__icon" href="javascript:void(0)">
+								<img class="b-footer__icon--img" alt="facebook" src="pictures/social/icon-facebook.svg">
+						</a>
+						<a class="b-footer__icon" href="javascript:void(0)">
+								<img class="b-footer__icon--img" alt="odnoklassniki" src="pictures/social/icon-odnoklassniki.svg">
+						</a>
+						<a class="b-footer__icon" href="javascript:void(0)">
+								<img class="b-footer__icon--img" alt="instagram" src="pictures/social/icon-instagram.svg">
+						</a>
+						<a class="b-footer__icon" href="javascript:void(0)">
+								<img class="b-footer__icon--img" alt="twitter" src="pictures/social/icon-twitter.svg">
+						</a>
+						<a class="b-footer__icon" href="javascript:void(0)">
+								<img class="b-footer__icon--img" alt="youtube" src="pictures/social/icon-youtube.svg">
+						</a>
+						<a class="b-footer__icon" href="javascript:void(0)">
+								<img class="b-footer__icon--img" alt="G+" src="pictures/social/icon-google.svg">
+						</a>
+				</div>
+				</div>
+			</div>
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end : third tab -->
-            <!-- start : fourth tab -->
-            <div class="b-tab-content__item">
-                <div class="tab-paragraph">
-                    <h2 class="tab-paragraph__title">Как выбрать ФИТНЕС</h2>
-                    <p class="tab-paragraph__text">При покупке умного браслета учитывайте то, что они бывают
-                    с дисплеем и без. А также обращайте внимание на размер, <br>т.к. уменьшить браслет невозможно. Для нормальной работы гаджета не лишним будет наличие смартфона, и чем новее операционная система, тем лучше. Есть множество примеров, когда браслет является совершенно бесполезным<br>без соответствующего приложения на телефоне.</p>
-                    <a href="javascript:void(0)" class="tab-paragraph__link">
-                        <span class="tab-paragraph__icon-container">
-                        <img src="pictures/icons/question.svg" alt="picture" class="tab-paragraph__icon"></span>Как выбрать
-                    </a>
-                    <a class="tab-paragraph__read-more" href="javascript:void(0)">Читать дальше
-                    </a>
-                </div>
+			<div class="b-footer__logo">
+				<p class="b-footer__copyright">Техносила &copy; 2016 Все цены указаны в рублях.</p>
+				<a class="b-footer__webmaster" href="javascript:void(0)">Какой-то умелец</a>
+			</div>
+		<!-- 	</div> -->
+		</footer>
+	 <!-- End:Footer-->
+	 <!--Start: Styles -->
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/main.js" type="text/javascript"></script>
+		<script src="js/less.min.js" type="text/javascript"></script>
+		<script src="js/slick.min.js"></script>
+		<!-- <script src="js/node_modules/raty-js/lib/jquery.raty.js"></script>
+		<script src="js/node_modules/jquery/dist/jquery.js"></script> -->
 
-                <div class="tab-product">
-                    <div class="tab-product__wrapper tab-product__wrapper--marg">
-                        <span class="tab-product__bestseller">Хит</span>
-                        <a href="javascript:void(0)" class="tab-product__action">Акция  &#8250;
-
-                        </a>
-                        <div class="tab-product__img-container">
-                            <img class="tab-product__img" src="pictures/main-tab/braslet-third.png" alt="picture">
-                        </div>
-                        <span class="tab-product__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
-                        <span class="tab-product__price" >10 290
-                            <span class="tab-product__price--mod">р.</span>
-                            <span class="tab-product__oldprice" >Было <br>11 990 Р.</span>
-                        </span>
-                        <span class="tab-product__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
-                        <div class="tab-product__stars">Акция</div>
-                    </div>
-                    <div class="tab-product__wrapper">
-                        <span class="tab-product__bestseller">Хит</span>
-                        <a href="javascript:void(0)" class="tab-product__action">Акция  &#8250
-                        </a>
-                        <div class="tab-product__img-container">
-                            <img class="tab-product__img" src="pictures/main-tab/braslet-third.png" alt="picture">
-                        </div>
-                        <span class="tab-product__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
-                        <span class="tab-product__price" >10 290
-                            <span class="tab-product__price--mod">р.</span>
-                            <span class="tab-product__oldprice" >Было <br>11 990 Р.</span>
-                        </span>
-                        <span class="tab-product__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
-                        <div class="tab-product__stars">
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end : fourth tab -->
-            <!-- start : fifth tab -->
-            <div class="b-tab-content__item">
-                <div class="tab-paragraph">
-                    <h2 class="tab-paragraph__title">Как выбрать ФИТНЕС</h2>
-                    <p class="tab-paragraph__text">При покупке умного браслета учитывайте то, что они бывают
-                    с дисплеем и без. А также обращайте внимание на размер, <br>т.к. уменьшить браслет невозможно. Для нормальной работы гаджета не лишним будет наличие смартфона, и чем новее операционная система, тем лучше. Есть множество примеров, когда браслет является совершенно бесполезным<br>без соответствующего приложения на телефоне.</p>
-                    <a href="javascript:void(0)" class="tab-paragraph__link">
-                        <span class="tab-paragraph__icon-container">
-                        <img src="pictures/icons/question.svg" alt="picture" class="tab-paragraph__icon"></span>Как выбрать
-                    </a>
-                    <a class="tab-paragraph__read-more" href="javascript:void(0)">Читать дальше
-                    </a>
-                </div>
-
-                <div class="tab-product">
-                    <div class="tab-product__wrapper tab-product__wrapper--marg">
-                        <span class="tab-product__bestseller">Хит</span>
-                        <a href="javascript:void(0)" class="tab-product__action">Акция  &#8250;
-
-                        </a>
-                        <div class="tab-product__img-container">
-                            <img class="tab-product__img" src="pictures/main-tab/braslet-fifth.png" alt="picture">
-                        </div>
-                        <span class="tab-product__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
-                        <span class="tab-product__price" >10 290
-                            <span class="tab-product__price--mod">р.</span>
-                            <span class="tab-product__oldprice" >Было <br>11 990 Р.</span>
-                        </span>
-                        <span class="tab-product__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
-                        <div class="tab-product__stars">Акция</div>
-                    </div>
-                    <div class="tab-product__wrapper">
-                        <span class="tab-product__bestseller">Хит</span>
-                        <a href="javascript:void(0)" class="tab-product__action">Акция  &#8250
-                        </a>
-                        <div class="tab-product__img-container">
-                            <img class="tab-product__img" src="pictures/main-tab/braslet-fifth.png" alt="picture">
-                        </div>
-                        <span class="tab-product__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
-                        <span class="tab-product__price" >10 290
-                            <span class="tab-product__price--mod">р.</span>
-                            <span class="tab-product__oldprice" >Было <br>11 990 Р.</span>
-                        </span>
-                        <span class="tab-product__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
-                        <div class="tab-product__stars">
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end : fifth tab -->
-            <!-- start : sixth tab -->
-            <div class="b-tab-content__item">
-                <div class="b-tab-content__wrapper">
-                    <div class="tab-paragraph">
-                        <h2 class="tab-paragraph__title">Как выбрать ФИТНЕС</h2>
-                        <p class="tab-paragraph__text">При покупке умного браслета учитывайте то, что они бывают
-                        с дисплеем и без. А также обращайте внимание на размер, <br>т.к. уменьшить браслет невозможно. Для нормальной работы гаджета не лишним будет наличие смартфона, и чем новее операционная система, тем лучше. Есть множество примеров, когда браслет является совершенно бесполезным<br>без соответствующего приложения на телефоне.</p>
-                        <a href="javascript:void(0)" class="tab-paragraph__link">
-                            <span class="tab-paragraph__icon-container">
-                            <img src="pictures/icons/question.svg" alt="picture" class="tab-paragraph__icon"></span>Как выбрать
-                        </a>
-                        <a class="tab-paragraph__read-more" href="javascript:void(0)">Читать дальше
-                        </a>
-                    </div>
-
-                    <div class="tab-product">
-                        <div class="tab-product__wrapper tab-product__wrapper--marg">
-                            <span class="tab-product__bestseller">Хит</span>
-                            <a href="javascript:void(0)" class="tab-product__action">Акция  &#8250;
-
-                            </a>
-                            <div class="tab-product__img-container">
-                                <img class="tab-product__img" src="pictures/main-tab/braslet-third.png" alt="picture">
-                            </div>
-                            <span class="tab-product__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
-                            <span class="tab-product__price" >10 290
-                                <span class="tab-product__price--mod">р.</span>
-                                <span class="tab-product__oldprice" >Было <br>11 990 Р.</span>
-                            </span>
-                            <span class="tab-product__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
-                            <div class="tab-product__stars">Акция</div>
-                        </div>
-                        <div class="tab-product__wrapper">
-                            <span class="tab-product__bestseller">Хит</span>
-                            <a href="javascript:void(0)" class="tab-product__action">Акция  &#8250
-                            </a>
-                            <div class="tab-product__img-container">
-                                <img class="tab-product__img" src="pictures/main-tab/bracelet.png" alt="picture">
-                            </div>
-                            <span class="tab-product__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
-                            <span class="tab-product__price" >10 290
-                                <span class="tab-product__price--mod">р.</span>
-                                <span class="tab-product__oldprice" >Было <br>11 990 Р.</span>
-                            </span>
-                            <span class="tab-product__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
-                            <div class="tab-product__stars">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end : sixth tab -->
-            <!-- start : seventh tab -->
-            <div class="b-tab-content__item">
-                <div class="tab-paragraph">
-                    <h2 class="tab-paragraph__title">Как выбрать ФИТНЕС</h2>
-                    <p class="tab-paragraph__text">При покупке умного браслета учитывайте то, что они бывают
-                    с дисплеем и без. А также обращайте внимание на размер, <br>т.к. уменьшить браслет невозможно. Для нормальной работы гаджета не лишним будет наличие смартфона, и чем новее операционная система, тем лучше. Есть множество примеров, когда браслет является совершенно бесполезным<br>без соответствующего приложения на телефоне.</p>
-                    <a href="javascript:void(0)" class="tab-paragraph__link">
-                        <span class="tab-paragraph__icon-container">
-                        <img src="pictures/icons/question.svg" alt="picture" class="tab-paragraph__icon"></span>Как выбрать
-                    </a>
-                    <a class="tab-paragraph__read-more" href="javascript:void(0)">Читать дальше
-                    </a>
-                </div>
-
-                <div class="tab-product">
-                    <div class="tab-product__wrapper tab-product__wrapper--marg">
-                        <span class="tab-product__bestseller">Хит</span>
-                        <a href="javascript:void(0)" class="tab-product__action">Акция  &#8250;
-
-                        </a>
-                        <div class="tab-product__img-container">
-                            <img class="tab-product__img" src="pictures/main-tab/bracelet-white.png" alt="picture">
-                        </div>
-                        <span class="tab-product__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
-                        <span class="tab-product__price" >10 290
-                            <span class="tab-product__price--mod">р.</span>
-                            <span class="tab-product__oldprice" >Было <br>11 990 Р.</span>
-                        </span>
-                        <span class="tab-product__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
-                        <div class="tab-product__stars">Акция</div>
-                    </div>
-                    <div class="tab-product__wrapper">
-                        <span class="tab-product__bestseller">Хит</span>
-                        <a href="javascript:void(0)" class="tab-product__action">Акция  &#8250
-                        </a>
-                        <div class="tab-product__img-container">
-                            <img class="tab-product__img" src="pictures/main-tab/bracelet.png" alt="picture">
-                        </div>
-                        <span class="tab-product__txt">Браслет Jawbone UP3 (JL04 - 6262ACH - EM) зелено-голубой</span>
-                        <span class="tab-product__price" >10 290
-                            <span class="tab-product__price--mod">р.</span>
-                            <span class="tab-product__oldprice" >Было <br>11 990 Р.</span>
-                        </span>
-                        <span class="tab-product__conditions">Забрать самому сегодня Доставим сегодня, бесплатно</span>
-                        <div class="tab-product__stars">
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end : seventn tab -->
-        <!-- End: tab`s content -->
-        </div>
-    <!-- End : block with tab -->
-    <!-- start: Viewed section -->
-    <section class="b-viewed b-container">
-        <h2 class="b-viewed__title">Вы недавно просматривали</h2>
-        <!-- Start Slider -->
-        <div class="b-slide">
-            <div class="b-slide___js-box">
-                <a class="b-slide__wrapper" href="javascript:void(0)">
-                    <span class="b-slide__img-container">
-                        <img class="b-slide__img"  src="pictures/viewed/good-1.png" alt="picture">
-                    </span>
-                    <span class="b-slide__text-container">
-                        <span class="b-slide__text">lg 55uf670v</span>
-                        <span class="b-slide__price">76 190<span class="b-slide__price--min">р.</span></span>
-                    </span>
-                </a>
-            </div>
-            <div class="b-slide___js-box">
-                <a class="b-slide__wrapper b-slide__wrapper--mod" href="javascript:void(0)">
-                    <span class="b-slide__img-container b-slide__img-container--mod">
-                        <img class="b-slide__img"  src="pictures/viewed/good-22.png" alt="picture">
-                    </span>
-                    <span class="b-slide__text-container">
-                        <span class="b-slide__text b-slide__text--mod">Samsung UE-48-JU6610U Smart UHD LED</span>
-                        <span class="b-slide__price b-slide__price--mod">53 190<span class="b-slide__price--min">р.</span></span>
-                    </span>
-                </a>
-            </div>
-            <div class="b-slide___js-box">
-                <a class="b-slide__wrapper b-slide__wrapper--box" href="javascript:void(0)">
-                    <span class="b-slide__img-container">
-                        <img class="b-slide__img b-slide__img--mod" src="pictures/viewed/good-32.png" alt="picture">
-                    </span>
-                    <span class="b-slide__text-container">
-                        <span class="b-slide__text b-slide__text--padd">lg 55uf670v</span>
-                        <span class="b-slide__price b-slide__price--color">101 190<span class="b-slide__price--min">р.</span></span>
-                    </span>
-                </a>
-            </div>
-            <div class="b-slide___js-box">
-                <a class="b-slide__wrapper b-slide__wrapper--padd" href="javascript:void(0)">
-                    <span class="b-slide__img-container">
-                        <img class="b-slide__img b-slide__img--size"  src="pictures/viewed/good-2.png" alt="picture">
-                    </span>
-                    <span class="b-slide__text-container">
-                        <span class="b-slide__text">lg 55uf670v</span>
-                        <span class="b-slide__price b-slide__price--color">83 190<span class="b-slide__price--min">р.</span></span>
-                    </span>
-                </a>
-            </div>
-            <div class="b-slide___js-box">
-                <a class="b-slide__wrapper b-slide__wrapper--padd" href="javascript:void(0)">
-                    <span class="b-slide__img-container">
-                        <img class="b-slide__img b-slide__img--size"  src="pictures/viewed/good-2.png" alt="picture">
-                    </span>
-                    <span class="b-slide__text-container">
-                        <span class="b-slide__text">lg 55uf670v</span>
-                        <span class="b-slide__price b-slide__price--color">83 190<span class="b-slide__price--min">р.</span></span>
-                    </span>
-                </a>
-            </div>
-        </div>
-    </section>
-    <!-- End: Slider -->
-    <!--  Start : callback area -->
-    <section class="b-callback b-container">
-        <h2 class="b-callback__title">Оставайтесь на связи</h2>
-        <div class="b-callback__content">
-            <p class="b-callback__title-txt">Узнавайте о выгодных предложениях и получайте персональные рекомендации</p>
-            <form class="b-callback__form" action="#" method="get">
-                <input class="b-callback__email" type="text" name="text" placeholder="Ваша электронная почта">
-                <a class="b-callback__button" href="javascript:void(0)">Подписаться</a>
-            </form>
-        </div>
-    </section>
-    <!-- End : callback area  -->
-    <!-- Start:Footer -->
-    <footer class="b-footer">
-        <div class="b-container">
-        <div class="b-footer__wrapper">
-            <!-- Start: footer-list -->
-            <ul class="b-footer__block b-footer__block--about">
-                <li class="b-footer__li">
-                    <a class="b-footer__link" href="javascript:void(0)">О Техносиле</a>
-                </li>
-                <li class="b-footer__li">
-                    <a class="b-footer__list" href="javascript:void(0)">Новости компании</a>
-                </li>
-                <li class="b-footer__li">
-                    <a class="b-footer__list" href="javascript:void(0)">Вакансии</a>
-                </li>
-                <li class="b-footer__li">
-                    <a class="b-footer__list" href="javascript:void(0)">Контактная информация</a>
-                </li>
-                <li class="b-footer__li">
-                    <a class="b-footer__list" href="javascript:void(0)">Арендодателям</a>
-                </li>
-                <li class="b-footer__li">
-                    <a class="b-footer__list" href="javascript:void(0)">Юридическая и финансовая информация</a>
-                </li>
-            </ul>
-            <ul class="b-footer__block b-footer__block--help">
-                <li class="b-footer__li">
-                    <a class="b-footer__link" href="javascript:void(0)">Помощь покупателю</a>
-                </li >
-                <li>
-                    <a class="b-footer__list" href="javascript:void(0)">Как сделать заказ на сайте</a>
-                </li>
-                <li class="b-footer__li">
-                    <a class="b-footer__list" href="javascript:void(0)">Оплата</a>
-                </li>
-                <li class="b-footer__li">
-                    <a class="b-footer__list" href="javascript:void(0)">Доставка</a>
-                </li>
-                <li class="b-footer__li">
-                    <a class="b-footer__list" href="javascript:void(0)">Адреса магазинов</a>
-                </li>
-                <li class="b-footer__li">
-                    <a class="b-footer__list" href="javascript:void(0)">Возврат и обмен</a>
-                </li>
-                <li class="b-footer__li">
-                    <a class="b-footer__list" href="javascript:void(0)">Пользовательское соглашение</a>
-                </li>
-                <li class="b-footer__li">
-                    <a class="b-footer__list" href="javascript:void(0)">Обратная связь</a>
-                </li>
-            </ul>
-            <ul class="b-footer__block b-footer__block--serveses">
-                <li class="b-footer__li">
-                <a class="b-footer__link" href="javascript:void(0)">Услуги и сервисы</a>
-                </li>
-                <li class="b-footer__li">
-                    <a class="b-footer__list" href="javascript:void(0)">Покупка в кредит</a>
-                </li>
-                <li class="b-footer__li">
-                    <a class="b-footer__list" href="javascript:void(0)">Бонусная программа</a>
-                </li>
-                <li class="b-footer__li">
-                    <a class="b-footer__list" href="javascript:void(0)">Установка и настройка техники</a>
-                </li>
-                <li class="b-footer__li">
-                    <a class="b-footer__list" href="javascript:void(0)">Подарочные карты</a>
-                </li>
-                <li class="b-footer__li">
-                    <a class="b-footer__list" href="javascript:void(0)">Программа доп. сервиса "Сервис+"</a>
-                </li>
-                <li class="b-footer__li">
-                    <a class="b-footer__list" href="javascript:void(0)">Страхование техники</a>
-                </li>
-                <li class="b-footer__li">
-                    <a class="b-footer__list" href="javascript:void(0)">Гарантийное обслуживание</a>
-                </li>
-                <li class="b-footer__li">
-                    <a class="b-footer__list" href="javascript:void(0)">Программа ТЕХНОТРЕНД</a>
-                </li>
-                <li class="b-footer__li">
-                    <a class="b-footer__list" href="javascript:void(0)">Адреса сервисных центров</a>
-                </li>
-            </ul>
-            <!-- End: footer-list -->
-            <div class="b-footer__callback">
-                <p class="b-footer__title">Есть вопросы? Звоните!</p>
-                <a class="b-footer__number" href="tel:+74957752100" title="8 (495) 775 21 00">8 495 775 21 00</a>
-                <p class="b-footer__content">Для звонков по Москве</p>
-                <a class="b-footer__number" href="tel:+78007752100" title="8 (800) 775 21 00">8 800 775 21 00</a>
-                <p class="b-footer__content">Для звонков по России (бесплатно)</p>
-                <div class="b-footer__social">
-                    <a class="b-footer__icon" href="javascript:void(0)">
-                        <img class="b-footer__icon--img" alt="vk" src="pictures/social/icon-vkontakte.svg">
-                    </a>
-                    <a class="b-footer__icon" href="javascript:void(0)">
-                        <img class="b-footer__icon--img" alt="facebook" src="pictures/social/icon-facebook.svg">
-                    </a>
-                    <a class="b-footer__icon" href="javascript:void(0)">
-                        <img class="b-footer__icon--img" alt="odnoklassniki" src="pictures/social/icon-odnoklassniki.svg">
-                    </a>
-                    <a class="b-footer__icon" href="javascript:void(0)">
-                        <img class="b-footer__icon--img" alt="instagram" src="pictures/social/icon-instagram.svg">
-                    </a>
-                    <a class="b-footer__icon" href="javascript:void(0)">
-                        <img class="b-footer__icon--img" alt="twitter" src="pictures/social/icon-twitter.svg">
-                    </a>
-                    <a class="b-footer__icon" href="javascript:void(0)">
-                        <img class="b-footer__icon--img" alt="youtube" src="pictures/social/icon-youtube.svg">
-                    </a>
-                    <a class="b-footer__icon" href="javascript:void(0)">
-                        <img class="b-footer__icon--img" alt="G+" src="pictures/social/icon-google.svg">
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="b-footer__logo">
-                <p class="b-footer__copyright">Техносила &copy; 2016 Все цены указаны в рублях.</p>
-                <a class="b-footer__webmaster" href="javascript:void(0)">Какой-то умелец</a>
-            </div>
-            </div>
-    </footer>
-   <!-- End:Footer-->
-   <!--Start: Styles -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/main.js" type="text/javascript"></script>
-    <script src="js/less.min.js" type="text/javascript"></script>
-    <script src="js/slick.min.js"></script>
-    <!-- <script src="js/node_modules/raty-js/lib/jquery.raty.js"></script>
-    <script src="js/node_modules/jquery/dist/jquery.js"></script> -->
-
-   <!--   End: Styles  -->
+	 <!--   End: Styles  -->
 </body>
 </html>

@@ -44,33 +44,29 @@ $(document).ready(function(){
   });
 });
 
-(function($){               
-    jQuery.fn.lightTabs = function(options){
-        
-        var createTabs = function(){
-            tabs = this;
-            i = 0;
-            
-            showPage = function(i){
-                $(tabs).children(".b-tab-content").children(".b-tab-content__item").hide();
-                $(tabs).children(".b-tab-content").children(".b-tab-content__item").eq(i).show();
-                $(tabs).children(".b-main-tab__menu").children(".b-main-tab__item").removeClass("active");
-                $(tabs).children(".b-main-tab__menu").children(".b-main-tab__item").eq(i).addClass("active");
-            }
-            
-            showPage(0);                
-            
-            $(tabs).children(".b-main-tab__menu").children(".b-main-tab__item").each(function(index, element){
-                $(element).attr("data-page", i);
-                i++;                        
-            });
-            
-            $(tabs).children(".b-main-tab__menu").children(".b-main-tab__item").click(function(){
-                showPage(parseInt($(this).attr("data-page")));
-            });             
-        };      
+(function($){
+  jQuery.fn.lightTabs = function(options){
+    var createTabs = function(){
+      tabs = this;
+      i = 0;
+    showPage = function(i){
+        $(tabs).children(".b-tab-content").children(".b-tab-content__item").hide();
+        $(tabs).children(".b-tab-content").children(".b-tab-content__item").eq(i).show();
+        $(tabs).children(".b-main-tab__menu").children(".b-main-tab__item").removeClass("active");
+        $(tabs).children(".b-main-tab__menu").children(".b-main-tab__item").eq(i).addClass("active");
+    }
+    showPage(0);
+      $(tabs).children(".b-main-tab__menu").children(".b-main-tab__item").each(function(index, element){
+        $(element).attr("data-page", i);
+        i++;
+      });
+
+      $(tabs).children(".b-main-tab__menu").children(".b-main-tab__item").click(function(){
+        showPage(parseInt($(this).attr("data-page")));
+        });
+      };
         return this.each(createTabs);
-    };  
+    };
 })(jQuery);
 $(document).ready(function(){
     $(".b-main-tab").lightTabs();
